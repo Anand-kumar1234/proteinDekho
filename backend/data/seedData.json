@@ -1,0 +1,3946 @@
+[
+  {
+    "name": "Paneer",
+    "nameHindi": "पनीर",
+    "category": "Dairy",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 slab / 4 thick cubes (100g)",
+    "macros": {
+      "protein": 18.3,
+      "calories": 265,
+      "carbs": 1.2,
+      "fats": 20.8,
+      "fiber": 0
+    },
+    "vitamins": {
+      "vitaminA": 210,
+      "vitaminB12": 0.8,
+      "vitaminC": 0,
+      "vitaminD": 12,
+      "vitaminE": 0.2,
+      "folate": 18
+    },
+    "minerals": {
+      "calcium": 480,
+      "iron": 0.2,
+      "zinc": 2.7,
+      "potassium": 130,
+      "magnesium": 18,
+      "sodium": 18
+    },
+    "glycemicIndex": "Low",
+    "tags": ["High Protein", "Rich in Calcium", "Keto Friendly"]
+  },
+  {
+    "name": "Palak (Spinach)",
+    "nameHindi": "पालक",
+    "category": "Vegetables",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl cooked (100g)",
+    "macros": {
+      "protein": 2.9,
+      "calories": 23,
+      "carbs": 3.6,
+      "fats": 0.4,
+      "fiber": 2.2
+    },
+    "vitamins": {
+      "vitaminA": 469,
+      "vitaminB12": 0,
+      "vitaminC": 28.1,
+      "vitaminD": 0,
+      "vitaminE": 2.0,
+      "folate": 194
+    },
+    "minerals": {
+      "calcium": 99,
+      "iron": 2.7,
+      "zinc": 0.53,
+      "potassium": 558,
+      "magnesium": 79,
+      "sodium": 79
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Rich in Iron", "High Vitamin A", "Low Calorie"]
+  },
+  {
+    "name": "Whole Milk (Cow)",
+    "nameHindi": "गाय का दूध",
+    "category": "Dairy",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "ml",
+    "householdServing": "1 standard glass (200ml)",
+    "macros": {
+      "protein": 3.2,
+      "calories": 61,
+      "carbs": 4.8,
+      "fats": 3.3,
+      "fiber": 0
+    },
+    "vitamins": {
+      "vitaminA": 48,
+      "vitaminB12": 0.4,
+      "vitaminC": 1.0,
+      "vitaminD": 1.3,
+      "vitaminE": 0.1,
+      "folate": 5
+    },
+    "minerals": {
+      "calcium": 120,
+      "iron": 0.1,
+      "zinc": 0.4,
+      "potassium": 150,
+      "magnesium": 11,
+      "sodium": 40
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Rich in Calcium", "Bone Health"]
+  },
+  {
+    "name": "Curd (Dahi)",
+    "nameHindi": "दही",
+    "category": "Dairy",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 small bowl (100g)",
+    "macros": {
+      "protein": 3.1,
+      "calories": 60,
+      "carbs": 4.7,
+      "fats": 3.2,
+      "fiber": 0
+    },
+    "vitamins": {
+      "vitaminA": 45,
+      "vitaminB12": 0.5,
+      "vitaminC": 1.0,
+      "vitaminD": 1.0,
+      "vitaminE": 0.1,
+      "folate": 7
+    },
+    "minerals": {
+      "calcium": 121,
+      "iron": 0.1,
+      "zinc": 0.5,
+      "potassium": 145,
+      "magnesium": 12,
+      "sodium": 38
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Probiotic", "Gut Friendly", "Rich in Calcium"]
+  },
+  {
+    "name": "Toor Dal (Yellow Pigeon Pea)",
+    "nameHindi": "अरहर दाल",
+    "category": "Pulses & Legumes",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl cooked dal (150g)",
+    "macros": {
+      "protein": 22.3,
+      "calories": 343,
+      "carbs": 57.6,
+      "fats": 1.7,
+      "fiber": 15.0
+    },
+    "vitamins": {
+      "vitaminA": 26,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "vitaminE": 0.4,
+      "folate": 133
+    },
+    "minerals": {
+      "calcium": 73,
+      "iron": 2.9,
+      "zinc": 1.1,
+      "potassium": 1157,
+      "magnesium": 118,
+      "sodium": 15
+    },
+    "glycemicIndex": "Low",
+    "tags": ["High Protein", "High Fiber", "Plant-Based"]
+  },
+  {
+    "name": "Moong Dal (Yellow Split)",
+    "nameHindi": "मूंग दाल",
+    "category": "Pulses & Legumes",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl cooked (150g)",
+    "macros": {
+      "protein": 24.5,
+      "calories": 348,
+      "carbs": 59.9,
+      "fats": 1.2,
+      "fiber": 16.3
+    },
+    "vitamins": {
+      "vitaminA": 19,
+      "vitaminB12": 0,
+      "vitaminC": 4.8,
+      "vitaminD": 0,
+      "vitaminE": 0.5,
+      "folate": 159
+    },
+    "minerals": {
+      "calcium": 132,
+      "iron": 3.9,
+      "zinc": 2.7,
+      "potassium": 1246,
+      "magnesium": 189,
+      "sodium": 15
+    },
+    "glycemicIndex": "Low",
+    "tags": ["High Protein", "Easy to Digest", "Low Fat"]
+  },
+  {
+    "name": "Chana Dal (Bengal Gram Split)",
+    "nameHindi": "चना दाल",
+    "category": "Pulses & Legumes",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl cooked (150g)",
+    "macros": {
+      "protein": 20.8,
+      "calories": 372,
+      "carbs": 59.8,
+      "fats": 5.6,
+      "fiber": 17.4
+    },
+    "vitamins": {
+      "vitaminA": 65,
+      "vitaminB12": 0,
+      "vitaminC": 1.3,
+      "vitaminD": 0,
+      "vitaminE": 0.8,
+      "folate": 172
+    },
+    "minerals": {
+      "calcium": 56,
+      "iron": 5.1,
+      "zinc": 2.8,
+      "potassium": 791,
+      "magnesium": 122,
+      "sodium": 24
+    },
+    "glycemicIndex": "Low",
+    "tags": ["High Fiber", "High Protein", "Diabetic Friendly"]
+  },
+  {
+    "name": "Masoor Dal (Red Lentil)",
+    "nameHindi": "मसूर दाल",
+    "category": "Pulses & Legumes",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl cooked (150g)",
+    "macros": {
+      "protein": 25.1,
+      "calories": 343,
+      "carbs": 59.0,
+      "fats": 0.7,
+      "fiber": 10.5
+    },
+    "vitamins": {
+      "vitaminA": 10,
+      "vitaminB12": 0,
+      "vitaminC": 4.4,
+      "vitaminD": 0,
+      "vitaminE": 0.3,
+      "folate": 181
+    },
+    "minerals": {
+      "calcium": 35,
+      "iron": 7.5,
+      "zinc": 3.3,
+      "potassium": 670,
+      "magnesium": 122,
+      "sodium": 6
+    },
+    "glycemicIndex": "Low",
+    "tags": ["High Iron", "High Protein", "Heart Healthy"]
+  },
+  {
+    "name": "Urad Dal (Black Gram Split)",
+    "nameHindi": "उड़द दाल",
+    "category": "Pulses & Legumes",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl cooked (150g)",
+    "macros": {
+      "protein": 24.0,
+      "calories": 341,
+      "carbs": 58.7,
+      "fats": 1.4,
+      "fiber": 11.9
+    },
+    "vitamins": {
+      "vitaminA": 38,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "vitaminE": 0.4,
+      "folate": 216
+    },
+    "minerals": {
+      "calcium": 138,
+      "iron": 7.6,
+      "zinc": 2.4,
+      "potassium": 983,
+      "magnesium": 267,
+      "sodium": 38
+    },
+    "glycemicIndex": "Low",
+    "tags": ["High Iron", "Energy Boosting", "High Fiber"]
+  },
+  {
+    "name": "Rajma (Red Kidney Beans)",
+    "nameHindi": "राजमा",
+    "category": "Pulses & Legumes",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl cooked (150g)",
+    "macros": {
+      "protein": 22.9,
+      "calories": 333,
+      "carbs": 60.0,
+      "fats": 1.1,
+      "fiber": 24.9
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "vitaminE": 0.3,
+      "folate": 394
+    },
+    "minerals": {
+      "calcium": 140,
+      "iron": 5.1,
+      "zinc": 2.8,
+      "potassium": 1406,
+      "magnesium": 140,
+      "sodium": 24
+    },
+    "glycemicIndex": "Low",
+    "tags": ["High Fiber", "High Potassium", "Diabetic Friendly"]
+  },
+  {
+    "name": "Kabuli Chana (Chickpeas)",
+    "nameHindi": "काबुली चना",
+    "category": "Pulses & Legumes",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl cooked (150g)",
+    "macros": {
+      "protein": 19.0,
+      "calories": 364,
+      "carbs": 61.0,
+      "fats": 5.9,
+      "fiber": 17.4
+    },
+    "vitamins": {
+      "vitaminA": 67,
+      "vitaminB12": 0,
+      "vitaminC": 4.0,
+      "vitaminD": 0,
+      "vitaminE": 1.3,
+      "folate": 557
+    },
+    "minerals": {
+      "calcium": 105,
+      "iron": 4.3,
+      "zinc": 3.4,
+      "potassium": 875,
+      "magnesium": 115,
+      "sodium": 24
+    },
+    "glycemicIndex": "Low",
+    "tags": ["High Folate", "High Fiber", "Protein Rich"]
+  },
+  {
+    "name": " Kala Chana (Black Chickpeas)",
+    "nameHindi": "काला चना",
+    "category": "Pulses & Legumes",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl boiled (150g)",
+    "macros": {
+      "protein": 19.4,
+      "calories": 360,
+      "carbs": 59.8,
+      "fats": 5.5,
+      "fiber": 18.0
+    },
+    "vitamins": {
+      "vitaminA": 60,
+      "vitaminB12": 0,
+      "vitaminC": 3.0,
+      "vitaminD": 0,
+      "vitaminE": 1.1,
+      "folate": 450
+    },
+    "minerals": {
+      "calcium": 110,
+      "iron": 5.2,
+      "zinc": 3.0,
+      "potassium": 790,
+      "magnesium": 130,
+      "sodium": 25
+    },
+    "glycemicIndex": "Low",
+    "tags": ["High Iron", "High Protein", "Traditional Superfood"]
+  },
+  {
+    "name": "Green Gram Whole (Sabut Moong)",
+    "nameHindi": "साबुत मूंग",
+    "category": "Pulses & Legumes",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl sprouted/boiled (150g)",
+    "macros": {
+      "protein": 24.0,
+      "calories": 347,
+      "carbs": 58.2,
+      "fats": 1.2,
+      "fiber": 16.0
+    },
+    "vitamins": {
+      "vitaminA": 35,
+      "vitaminB12": 0,
+      "vitaminC": 4.8,
+      "vitaminD": 0,
+      "vitaminE": 0.5,
+      "folate": 160
+    },
+    "minerals": {
+      "calcium": 124,
+      "iron": 4.0,
+      "zinc": 2.6,
+      "potassium": 1250,
+      "magnesium": 185,
+      "sodium": 15
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Sprout Friendly", "High Protein", "Low Glycemic"]
+  },
+  {
+    "name": "Soybean",
+    "nameHindi": "सोयाबीन",
+    "category": "Pulses & Legumes",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 small bowl (50g)",
+    "macros": {
+      "protein": 43.2,
+      "calories": 432,
+      "carbs": 20.9,
+      "fats": 19.5,
+      "fiber": 9.3
+    },
+    "vitamins": {
+      "vitaminA": 45,
+      "vitaminB12": 0,
+      "vitaminC": 6.0,
+      "vitaminD": 0,
+      "vitaminE": 0.8,
+      "folate": 375
+    },
+    "minerals": {
+      "calcium": 240,
+      "iron": 10.4,
+      "zinc": 4.9,
+      "potassium": 1797,
+      "magnesium": 280,
+      "sodium": 2 }
+    ,
+    "glycemicIndex": "Low",
+    "tags": ["Ultimate Plant Protein", "Rich in Iron", "Heart Healthy"]
+  },
+  {
+    "name": "Wheat Roti / Chapati",
+    "nameHindi": "गेहूं की रोटी",
+    "category": "Cereals & Grains",
+    "isVeg": true,
+    "standardServingSize": 30,
+    "servingUnit": "g",
+    "householdServing": "1 medium chapati (30g)",
+    "macros": {
+      "protein": 3.6,
+      "calories": 96,
+      "carbs": 18.5,
+      "fats": 0.9,
+      "fiber": 2.7
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "vitaminE": 0.3,
+      "folate": 12
+    },
+    "minerals": {
+      "calcium": 11,
+      "iron": 1.4,
+      "zinc": 0.8,
+      "potassium": 107,
+      "magnesium": 38,
+      "sodium": 5
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["Staple Food", "Energy Source", "Contains Gluten"]
+  },
+  {
+    "name": "White Rice (Cooked)",
+    "nameHindi": "पका हुआ चावल",
+    "category": "Cereals & Grains",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 medium bowl cooked (150g)",
+    "macros": {
+      "protein": 2.7,
+      "calories": 130,
+      "carbs": 28.2,
+      "fats": 0.3,
+      "fiber": 0.4
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "vitaminE": 0.1,
+      "folate": 8
+    },
+    "minerals": {
+      "calcium": 10,
+      "iron": 0.2,
+      "zinc": 0.4,
+      "potassium": 35,
+      "magnesium": 12,
+      "sodium": 1
+    },
+    "glycemicIndex": "High",
+    "tags": ["Easy Digestion", "Quick Energy", "Gluten Free"]
+  },
+  {
+    "name": "Brown Rice (Cooked)",
+    "nameHindi": "ब्राउन राइस",
+    "category": "Cereals & Grains",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 medium bowl cooked (150g)",
+    "macros": {
+      "protein": 2.6,
+      "calories": 111,
+      "carbs": 23.0,
+      "fats": 0.9,
+      "fiber": 1.8
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "vitaminE": 0.2,
+      "folate": 9
+    },
+    "minerals": {
+      "calcium": 3,
+      "iron": 0.4,
+      "zinc": 0.6,
+      "potassium": 43,
+      "magnesium": 43,
+      "sodium": 2
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["Whole Grain", "High Fiber", "Diabetic Friendly"]
+  },
+  {
+    "name": "Poha (Flattened Rice)",
+    "nameHindi": "पोहा",
+    "category": "Cereals & Grains",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 plate cooked poha (150g)",
+    "macros": {
+      "protein": 6.9,
+      "calories": 346,
+      "carbs": 77.3,
+      "fats": 0.9,
+      "fiber": 1.0
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "vitaminE": 0.1,
+      "folate": 10
+    },
+    "minerals": {
+      "calcium": 20,
+      "iron": 20.0,
+      "zinc": 0.8,
+      "potassium": 98,
+      "magnesium": 45,
+      "sodium": 5
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["Iron Rich", "Quick Breakfast", "Light on Stomach"]
+  },
+  {
+    "name": "Oats (Rolled)",
+    "nameHindi": "जई (ओट्स)",
+    "category": "Cereals & Grains",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl cooked (150g)",
+    "macros": {
+      "protein": 13.5,
+      "calories": 389,
+      "carbs": 66.3,
+      "fats": 6.7,
+      "fiber": 10.6
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "vitaminE": 0.8,
+      "folate": 56
+    },
+    "minerals": {
+      "calcium": 54,
+      "iron": 4.7,
+      "zinc": 4.0,
+      "potassium": 429,
+      "magnesium": 177,
+      "sodium": 2
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Heart Healthy", "High Fiber", "Weight Loss"]
+  },
+  {
+    "name": "Idli",
+    "nameHindi": "इडली",
+    "category": "Breakfast & Snacks",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "2 medium idlis (80g)",
+    "macros": {
+      "protein": 5.8,
+      "calories": 128,
+      "carbs": 26.5,
+      "fats": 0.5,
+      "fiber": 1.2
+    },
+    "vitamins": {
+      "vitaminA": 5,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "vitaminE": 0.2,
+      "folate": 20
+    },
+    "minerals": {
+      "calcium": 18,
+      "iron": 1.1,
+      "zinc": 0.5,
+      "potassium": 75,
+      "magnesium": 25,
+      "sodium": 120
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["Fermented Food", "Easily Digestible", "Low Fat"]
+  },
+  {
+    "name": "Dosa (Plain)",
+    "nameHindi": "सादा डोसा",
+    "category": "Breakfast & Snacks",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 medium dosa (90g)",
+    "macros": {
+      "protein": 4.9,
+      "calories": 168,
+      "carbs": 29.0,
+      "fats": 3.7,
+      "fiber": 1.5
+    },
+    "vitamins": {
+      "vitaminA": 10,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "vitaminE": 0.3,
+      "folate": 15
+    },
+    "minerals": {
+      "calcium": 22,
+      "iron": 1.3,
+      "zinc": 0.6,
+      "potassium": 90,
+      "magnesium": 28,
+      "sodium": 180
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["South Indian", "Fermented", "Crispy Snack"]
+  },
+  {
+    "name": "Upma",
+    "nameHindi": "सूजी उपमा",
+    "category": "Breakfast & Snacks",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 medium bowl (150g)",
+    "macros": {
+      "protein": 3.5,
+      "calories": 110,
+      "carbs": 18.0,
+      "fats": 3.2,
+      "fiber": 1.6
+    },
+    "vitamins": {
+      "vitaminA": 15,
+      "vitaminB12": 0,
+      "vitaminC": 2.0,
+      "vitaminD": 0,
+      "vitaminE": 0.4,
+      "folate": 12
+    },
+    "minerals": {
+      "calcium": 15,
+      "iron": 1.0,
+      "zinc": 0.4,
+      "potassium": 65,
+      "magnesium": 20,
+      "sodium": 220
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["Semolina Dish", "Breakfast Favorite", "Energizing"]
+  },
+  {
+    "name": "Aloo Paratha",
+    "nameHindi": "आलू पराठा",
+    "category": "Breakfast & Snacks",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 medium paratha (120g)",
+    "macros": {
+      "protein": 4.2,
+      "calories": 210,
+      "carbs": 29.5,
+      "fats": 8.5,
+      "fiber": 3.0
+    },
+    "vitamins": {
+      "vitaminA": 30,
+      "vitaminB12": 0,
+      "vitaminC": 5.2,
+      "vitaminD": 0,
+      "vitaminE": 0.6,
+      "folate": 18
+    },
+    "minerals": {
+      "calcium": 20,
+      "iron": 1.2,
+      "zinc": 0.7,
+      "potassium": 210,
+      "magnesium": 32,
+      "sodium": 250
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["North Indian", "Stuffed Bread", "Comfort Food"]
+  },
+  {
+    "name": "Besan Chilla",
+    "nameHindi": "बेसन चीला",
+    "category": "Breakfast & Snacks",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "2 medium chillas (100g)",
+    "macros": {
+      "protein": 8.5,
+      "calories": 180,
+      "carbs": 22.0,
+      "fats": 6.2,
+      "fiber": 4.1
+    },
+    "vitamins": {
+      "vitaminA": 40,
+      "vitaminB12": 0,
+      "vitaminC": 2.5,
+      "vitaminD": 0,
+      "vitaminE": 0.5,
+      "folate": 65
+    },
+    "minerals": {
+      "calcium": 35,
+      "iron": 2.1,
+      "zinc": 1.0,
+      "potassium": 310,
+      "magnesium": 48,
+      "sodium": 280
+    },
+    "glycemicIndex": "Low",
+    "tags": ["High Protein", "Gluten Free", "Quick Snack"]
+  },
+  {
+    "name": "Almonds",
+    "nameHindi": "बादाम",
+    "category": "Nuts & Seeds",
+    "isVeg": true,
+    "standardServingSize": 30,
+    "servingUnit": "g",
+    "householdServing": "1 handful / 20-22 almonds (30g)",
+    "macros": {
+      "protein": 6.3,
+      "calories": 178,
+      "carbs": 6.1,
+      "fats": 15.3,
+      "fiber": 3.5
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "vitaminE": 7.3,
+      "folate": 13
+    },
+    "minerals": {
+      "calcium": 76,
+      "iron": 1.1,
+      "zinc": 0.9,
+      "potassium": 210,
+      "magnesium": 81,
+      "sodium": 0.3
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Heart Healthy", "Rich in Vitamin E", "Brain Food"]
+  },
+  {
+    "name": "Walnuts",
+    "nameHindi": "अखरोट",
+    "category": "Nuts & Seeds",
+    "isVeg": true,
+    "standardServingSize": 30,
+    "servingUnit": "g",
+    "householdServing": "7-8 walnut halves (30g)",
+    "macros": {
+      "protein": 4.5,
+      "calories": 196,
+      "carbs": 4.1,
+      "fats": 19.5,
+      "fiber": 2.0
+    },
+    "vitamins": {
+      "vitaminA": 6,
+      "vitaminB12": 0,
+      "vitaminC": 0.4,
+      "vitaminD": 0,
+      "vitaminE": 0.2,
+      "folate": 29
+    },
+    "minerals": {
+      "calcium": 29,
+      "iron": 0.8,
+      "zinc": 0.9,
+      "potassium": 132,
+      "magnesium": 47,
+      "sodium": 1
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Omega-3 Rich", "Brain Booster", "Keto Friendly"]
+  },
+  {
+    "name": "Cashews",
+    "nameHindi": "काजू",
+    "category": "Nuts & Seeds",
+    "isVeg": true,
+    "standardServingSize": 30,
+    "servingUnit": "g",
+    "householdServing": "15-18 cashews (30g)",
+    "macros": {
+      "protein": 5.4,
+      "calories": 167,
+      "carbs": 9.2,
+      "fats": 13.2,
+      "fiber": 1.0
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 0.1,
+      "vitaminD": 0,
+      "vitaminE": 0.3,
+      "folate": 7
+    },
+    "minerals": {
+      "calcium": 11,
+      "iron": 1.9,
+      "zinc": 1.7,
+      "potassium": 187,
+      "magnesium": 86,
+      "sodium": 3
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Rich in Magnesium", "Energy Booster", "Mineral Dense"]
+  },
+  {
+    "name": "Peanuts",
+    "nameHindi": "मूंगफली",
+    "category": "Nuts & Seeds",
+    "isVeg": true,
+    "standardServingSize": 30,
+    "servingUnit": "g",
+    "householdServing": "1 handful roasted peanuts (30g)",
+    "macros": {
+      "protein": 7.8,
+      "calories": 171,
+      "carbs": 4.8,
+      "fats": 14.7,
+      "fiber": 2.5
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "vitaminE": 2.5,
+      "folate": 70
+    },
+    "minerals": {
+      "calcium": 28,
+      "iron": 1.3,
+      "zinc": 1.0,
+      "potassium": 205,
+      "magnesium": 51,
+      "sodium": 5
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Budget Protein", "Plant Protein", "Heart Healthy"]
+  },
+  {
+    "name": "Chia Seeds",
+    "nameHindi": "चिया सीड्स",
+    "category": "Nuts & Seeds",
+    "isVeg": true,
+    "standardServingSize": 20,
+    "servingUnit": "g",
+    "householdServing": "1.5 tablespoons (20g)",
+    "macros": {
+      "protein": 3.3,
+      "calories": 97,
+      "carbs": 8.4,
+      "fats": 6.1,
+      "fiber": 6.8
+    },
+    "vitamins": {
+      "vitaminA": 1,
+      "vitaminB12": 0,
+      "vitaminC": 0.3,
+      "vitaminD": 0,
+      "vitaminE": 0.1,
+      "folate": 10
+    },
+    "minerals": {
+      "calcium": 126,
+      "iron": 1.5,
+      "zinc": 0.9,
+      "potassium": 81,
+      "magnesium": 67,
+      "sodium": 3
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Superfood", "High Fiber", "Omega-3 Rich"]
+  },
+  {
+    "name": "Banana",
+    "nameHindi": "केला",
+    "category": "Fruits",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 medium banana (118g)",
+    "macros": {
+      "protein": 1.1,
+      "calories": 89,
+      "carbs": 22.8,
+      "fats": 0.3,
+      "fiber": 2.6
+    },
+    "vitamins": {
+      "vitaminA": 3,
+      "vitaminB12": 0,
+      "vitaminC": 8.7,
+      "vitaminD": 0,
+      "vitaminE": 0.1,
+      "folate": 20
+    },
+    "minerals": {
+      "calcium": 5,
+      "iron": 0.3,
+      "zinc": 0.2,
+      "potassium": 358,
+      "magnesium": 27,
+      "sodium": 1
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["High Potassium", "Instant Energy", "Digestive Health"]
+  },
+  {
+    "name": "Apple",
+    "nameHindi": "सेव",
+    "category": "Fruits",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 medium apple (150g)",
+    "macros": {
+      "protein": 0.3,
+      "calories": 52,
+      "carbs": 13.8,
+      "fats": 0.2,
+      "fiber": 2.4
+    },
+    "vitamins": {
+      "vitaminA": 3,
+      "vitaminB12": 0,
+      "vitaminC": 4.6,
+      "vitaminD": 0,
+      "vitaminE": 0.2,
+      "folate": 3
+    },
+    "minerals": {
+      "calcium": 6,
+      "iron": 0.1,
+      "zinc": 0.04,
+      "potassium": 107,
+      "magnesium": 5,
+      "sodium": 1
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Rich in Fiber", "Heart Healthy", "Low Calorie"]
+  },
+  {
+    "name": "Mango",
+    "nameHindi": "आम",
+    "category": "Fruits",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 medium mango cup (150g)",
+    "macros": {
+      "protein": 0.8,
+      "calories": 60,
+      "carbs": 15.0,
+      "fats": 0.4,
+      "fiber": 1.6
+    },
+    "vitamins": {
+      "vitaminA": 54,
+      "vitaminB12": 0,
+      "vitaminC": 36.4,
+      "vitaminD": 0,
+      "vitaminE": 0.9,
+      "folate": 43
+    },
+    "minerals": {
+      "calcium": 11,
+      "iron": 0.2,
+      "zinc": 0.1,
+      "potassium": 168,
+      "magnesium": 10,
+      "sodium": 1
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["King of Fruits", "High Vitamin C", "Immunity Booster"]
+  },
+  {
+    "name": "Papaya",
+    "nameHindi": "पपीता",
+    "category": "Fruits",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl diced papaya (140g)",
+    "macros": {
+      "protein": 0.5,
+      "calories": 43,
+      "carbs": 10.8,
+      "fats": 0.3,
+      "fiber": 1.7
+    },
+    "vitamins": {
+      "vitaminA": 47,
+      "vitaminB12": 0,
+      "vitaminC": 60.9,
+      "vitaminD": 0,
+      "vitaminE": 0.3,
+      "folate": 38
+    },
+    "minerals": {
+      "calcium": 20,
+      "iron": 0.3,
+      "zinc": 0.1,
+      "potassium": 182,
+      "magnesium": 21,
+      "sodium": 8
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["Digestive Aid", "Rich in Papain", "High Vitamin C"]
+  },
+  {
+    "name": "Guava",
+    "nameHindi": "अमरूद",
+    "category": "Fruits",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 medium guava (120g)",
+    "macros": {
+      "protein": 2.6,
+      "calories": 68,
+      "carbs": 14.3,
+      "fats": 0.95,
+      "fiber": 5.4
+    },
+    "vitamins": {
+      "vitaminA": 31,
+      "vitaminB12": 0,
+      "vitaminC": 228.3,
+      "vitaminD": 0,
+      "vitaminE": 0.7,
+      "folate": 49
+    },
+    "minerals": {
+      "calcium": 18,
+      "iron": 0.3,
+      "zinc": 0.2,
+      "potassium": 417,
+      "magnesium": 22,
+      "sodium": 2
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Vitamin C Powerhouse", "High Fiber", "Diabetic Friendly"]
+  },
+  {
+    "name": "Pomegranate",
+    "nameHindi": "अनार",
+    "category": "Fruits",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1/2 cup arils (85g)",
+    "macros": {
+      "protein": 1.7,
+      "calories": 83,
+      "carbs": 18.7,
+      "fats": 1.2,
+      "fiber": 4.0
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 10.2,
+      "vitaminD": 0,
+      "vitaminE": 0.6,
+      "folate": 38
+    },
+    "minerals": {
+      "calcium": 10,
+      "iron": 0.3,
+      "zinc": 0.35,
+      "potassium": 236,
+      "magnesium": 12,
+      "sodium": 3
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Antioxidant Rich", "Blood Builder", "Heart Health"]
+  },
+  {
+    "name": "Tomato",
+    "nameHindi": "टमाटर",
+    "category": "Vegetables",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 medium tomato (100g)",
+    "macros": {
+      "protein": 0.9,
+      "calories": 18,
+      "carbs": 3.9,
+      "fats": 0.2,
+      "fiber": 1.2
+    },
+    "vitamins": {
+      "vitaminA": 42,
+      "vitaminB12": 0,
+      "vitaminC": 13.7,
+      "vitaminD": 0,
+      "vitaminE": 0.5,
+      "folate": 15
+    },
+    "minerals": {
+      "calcium": 10,
+      "iron": 0.3,
+      "zinc": 0.1,
+      "potassium": 237,
+      "magnesium": 11,
+      "sodium": 5
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Lycopene Rich", "Low Calorie", "Skin Health"]
+  },
+  {
+    "name": "Potato",
+    "nameHindi": "आलू",
+    "category": "Vegetables",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 medium potato (150g)",
+    "macros": {
+      "protein": 2.0,
+      "calories": 77,
+      "carbs": 17.5,
+      "fats": 0.1,
+      "fiber": 2.1
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 19.7,
+      "vitaminD": 0,
+      "vitaminE": 0.01,
+      "folate": 16
+    },
+    "minerals": {
+      "calcium": 12,
+      "iron": 0.8,
+      "zinc": 0.3,
+      "potassium": 425,
+      "magnesium": 23,
+      "sodium": 6
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["Energy Rich", "High Potassium", "Versatile"]
+  },
+  {
+    "name": "Onion",
+    "nameHindi": "प्याज",
+    "category": "Vegetables",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 medium onion (110g)",
+    "macros": {
+      "protein": 1.1,
+      "calories": 40,
+      "carbs": 9.3,
+      "fats": 0.1,
+      "fiber": 1.7
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 7.4,
+      "vitaminD": 0,
+      "vitaminE": 0.02,
+      "folate": 19
+    },
+    "minerals": {
+      "calcium": 23,
+      "iron": 0.2,
+      "zinc": 0.2,
+      "potassium": 146,
+      "magnesium": 10,
+      "sodium": 4
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Antioxidant Rich", "Immunity Booster", "Culinary Staple"]
+  },
+  {
+    "name": "Carrot",
+    "nameHindi": "गाजर",
+    "category": "Vegetables",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 medium carrot (80g)",
+    "macros": {
+      "protein": 0.9,
+      "calories": 41,
+      "carbs": 9.6,
+      "fats": 0.2,
+      "fiber": 2.8
+    },
+    "vitamins": {
+      "vitaminA": 835,
+      "vitaminB12": 0,
+      "vitaminC": 5.9,
+      "vitaminD": 0,
+      "vitaminE": 0.7,
+      "folate": 19
+    },
+    "minerals": {
+      "calcium": 33,
+      "iron": 0.3,
+      "zinc": 0.2,
+      "potassium": 320,
+      "magnesium": 12,
+      "sodium": 69
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Eye Health", "High Beta-Carotene", "Fiber Rich"]
+  },
+  {
+    "name": "Cabbage",
+    "nameHindi": "पत्ता गोभी",
+    "category": "Vegetables",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 cup shredded (85g)",
+    "macros": {
+      "protein": 1.3,
+      "calories": 25,
+      "carbs": 5.8,
+      "fats": 0.1,
+      "fiber": 2.5
+    },
+    "vitamins": {
+      "vitaminA": 5,
+      "vitaminB12": 0,
+      "vitaminC": 36.6,
+      "vitaminD": 0,
+      "vitaminE": 0.2,
+      "folate": 43
+    },
+    "minerals": {
+      "calcium": 40,
+      "iron": 0.5,
+      "zinc": 0.2,
+      "potassium": 196,
+      "magnesium": 12,
+      "sodium": 18
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Low Calorie", "High Vitamin C", "Detox"]
+  },
+  {
+    "name": "Cauliflower",
+    "nameHindi": "फूलगोभी",
+    "category": "Vegetables",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 cup chopped florets (100g)",
+    "macros": {
+      "protein": 1.9,
+      "calories": 25,
+      "carbs": 5.0,
+      "fats": 0.3,
+      "fiber": 2.0
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 48.2,
+      "vitaminD": 0,
+      "vitaminE": 0.1,
+      "folate": 57
+    },
+    "minerals": {
+      "calcium": 22,
+      "iron": 0.4,
+      "zinc": 0.3,
+      "potassium": 299,
+      "magnesium": 15,
+      "sodium": 30
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Low Carb", "High Vitamin C", "Keto Friendly"]
+  },
+  {
+    "name": "Bhindi (Okra)",
+    "nameHindi": "भिंडी",
+    "category": "Vegetables",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl cooked bhindi (100g)",
+    "macros": {
+      "protein": 2.0,
+      "calories": 33,
+      "carbs": 7.5,
+      "fats": 0.2,
+      "fiber": 3.2
+    },
+    "vitamins": {
+      "vitaminA": 36,
+      "vitaminB12": 0,
+      "vitaminC": 23.0,
+      "vitaminD": 0,
+      "vitaminE": 0.3,
+      "folate": 60
+    },
+    "minerals": {
+      "calcium": 82,
+      "iron": 0.6,
+      "zinc": 0.6,
+      "potassium": 299,
+      "magnesium": 57,
+      "sodium": 7
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Diabetic Friendly", "High Fiber", "Digestive Health"]
+  },
+  {
+    "name": "Bottle Gourd (Lauki)",
+    "nameHindi": "लौकी",
+    "category": "Vegetables",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl cooked lauki (120g)",
+    "macros": {
+      "protein": 0.6,
+      "calories": 14,
+      "carbs": 3.4,
+      "fats": 0.02,
+      "fiber": 1.5
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 10.0,
+      "vitaminD": 0,
+      "vitaminE": 0.1,
+      "folate": 6
+    },
+    "minerals": {
+      "calcium": 26,
+      "iron": 0.2,
+      "zinc": 0.1,
+      "potassium": 150,
+      "magnesium": 11,
+      "sodium": 1
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Weight Loss", "High Water Content", "Easy Digestion"]
+  },
+  {
+    "name": "Bitter Gourd (Karela)",
+    "nameHindi": "करेला",
+    "category": "Vegetables",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl cooked karela (100g)",
+    "macros": {
+      "protein": 1.0,
+      "calories": 17,
+      "carbs": 3.7,
+      "fats": 0.2,
+      "fiber": 2.8
+    },
+    "vitamins": {
+      "vitaminA": 24,
+      "vitaminB12": 0,
+      "vitaminC": 84.0,
+      "vitaminD": 0,
+      "vitaminE": 0.14,
+      "folate": 72
+    },
+    "minerals": {
+      "calcium": 19,
+      "iron": 0.4,
+      "zinc": 0.8,
+      "potassium": 296,
+      "magnesium": 17,
+      "sodium": 5
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Anti-Diabetic", "Blood Purifier", "Immunity"]
+  },
+  {
+    "name": "Egg (Boiled)",
+    "nameHindi": "उबला हुआ अंडा",
+    "category": "Eggs & Poultry",
+    "isVeg": false,
+    "standardServingSize": 50,
+    "servingUnit": "g",
+    "householdServing": "1 large egg (50g)",
+    "macros": {
+      "protein": 6.3,
+      "calories": 78,
+      "carbs": 0.6,
+      "fats": 5.3,
+      "fiber": 0
+    },
+    "vitamins": {
+      "vitaminA": 74,
+      "vitaminB12": 0.6,
+      "vitaminC": 0,
+      "vitaminD": 1.1,
+      "vitaminE": 0.5,
+      "folate": 24
+    },
+    "minerals": {
+      "calcium": 25,
+      "iron": 0.6,
+      "zinc": 0.6,
+      "potassium": 63,
+      "magnesium": 6,
+      "sodium": 62
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Complete Protein", "Muscle Building", "Brain Health"]
+  },
+  {
+    "name": "Chicken Breast (Cooked)",
+    "nameHindi": "चिकन ब्रेस्ट",
+    "category": "Eggs & Poultry",
+    "isVeg": false,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 medium chicken breast fillet (100g)",
+    "macros": {
+      "protein": 31.0,
+      "calories": 165,
+      "carbs": 0,
+      "fats": 3.6,
+      "fiber": 0
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0.3,
+      "vitaminC": 0,
+      "vitaminD": 0.1,
+      "vitaminE": 0.3,
+      "folate": 4
+    },
+    "minerals": {
+      "calcium": 15,
+      "iron": 1.0,
+      "zinc": 1.0,
+      "potassium": 256,
+      "magnesium": 29,
+      "sodium": 74
+    },
+    "glycemicIndex": "Low",
+    "tags": ["High Protein", "Low Fat", "Bodybuilding"]
+  },
+  {
+    "name": "Rohu Fish",
+    "nameHindi": "रोहू मछली",
+    "category": "Fish & Seafood",
+    "isVeg": false,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 medium fish fillet (100g)",
+    "macros": {
+      "protein": 17.5,
+      "calories": 97,
+      "carbs": 0,
+      "fats": 2.7,
+      "fiber": 0
+    },
+    "vitamins": {
+      "vitaminA": 35,
+      "vitaminB12": 1.2,
+      "vitaminC": 0,
+      "vitaminD": 4.5,
+      "vitaminE": 0.5,
+      "folate": 10
+    },
+    "minerals": {
+      "calcium": 260,
+      "iron": 1.2,
+      "zinc": 1.1,
+      "potassium": 310,
+      "magnesium": 32,
+      "sodium": 85
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Omega-3", "High Calcium", "Heart Healthy"]
+  },
+  {
+    "name": "Mutton (Goat Meat)",
+    "nameHindi": "मटन",
+    "category": "Meat",
+    "isVeg": false,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 medium serving curry cut (100g)",
+    "macros": {
+      "protein": 25.0,
+      "calories": 143,
+      "carbs": 0,
+      "fats": 4.5,
+      "fiber": 0
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 2.3,
+      "vitaminC": 0,
+      "vitaminD": 0.1,
+      "vitaminE": 0.2,
+      "folate": 3
+    },
+    "minerals": {
+      "calcium": 17,
+      "iron": 3.4,
+      "zinc": 4.8,
+      "potassium": 370,
+      "magnesium": 25,
+      "sodium": 80
+    },
+    "glycemicIndex": "Low",
+    "tags": ["High Iron", "High Zinc", "Rich in B12"]
+  },
+  {
+    "name": "Prawns / Shrimp",
+    "nameHindi": "झींगा मछली",
+    "category": "Fish & Seafood",
+    "isVeg": false,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl cooked prawns (100g)",
+    "macros": {
+      "protein": 24.0,
+      "calories": 99,
+      "carbs": 0.2,
+      "fats": 0.3,
+      "fiber": 0
+    },
+    "vitamins": {
+      "vitaminA": 48,
+      "vitaminB12": 1.4,
+      "vitaminC": 0,
+      "vitaminD": 3.4,
+      "vitaminE": 1.2,
+      "folate": 3 }
+    ,
+    "minerals": {
+      "calcium": 70,
+      "iron": 0.5,
+      "zinc": 1.4,
+      "potassium": 160,
+      "magnesium": 38,
+      "sodium": 148
+    },
+    "glycemicIndex": "Low",
+    "tags": ["High Protein", "Low Fat", "Seafood"]
+  },
+  {
+    "name": "Ghee (Clarified Butter)",
+    "nameHindi": "शुद्ध घी",
+    "category": "Fats & Oils",
+    "isVeg": true,
+    "standardServingSize": 10,
+    "servingUnit": "g",
+    "householdServing": "1 tablespoon (10g)",
+    "macros": {
+      "protein": 0,
+      "calories": 90,
+      "carbs": 0,
+      "fats": 10.0,
+      "fiber": 0
+    },
+    "vitamins": {
+      "vitaminA": 306,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 7.4,
+      "vitaminE": 2.8,
+      "folate": 0
+    },
+    "minerals": {
+      "calcium": 2,
+      "iron": 0,
+      "zinc": 0,
+      "potassium": 0,
+      "magnesium": 0,
+      "sodium": 1
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Traditional Fat", "High Smoke Point", "Ayurvedic"]
+  },
+  {
+    "name": "Mustard Oil",
+    "nameHindi": "सरसों का तेल",
+    "category": "Fats & Oils",
+    "isVeg": true,
+    "standardServingSize": 10,
+    "servingUnit": "ml",
+    "householdServing": "1 tablespoon (10ml)",
+    "macros": {
+      "protein": 0,
+      "calories": 88,
+      "carbs": 0,
+      "fats": 10.0,
+      "fiber": 0
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "vitaminE": 2.4,
+      "folate": 0
+    },
+    "minerals": {
+      "calcium": 0,
+      "iron": 0,
+      "zinc": 0,
+      "potassium": 0,
+      "magnesium": 0,
+      "sodium": 0
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Heart Healthy", "MUFA Rich", "Traditional Cooking Oil"]
+  },
+  {
+    "name": "Coconut Oil",
+    "nameHindi": "नारियल का तेल",
+    "category": "Fats & Oils",
+    "isVeg": true,
+    "standardServingSize": 10,
+    "servingUnit": "ml",
+    "householdServing": "1 tablespoon (10ml)",
+    "macros": {
+      "protein": 0,
+      "calories": 86,
+      "carbs": 0,
+      "fats": 10.0,
+      "fiber": 0
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "vitaminE": 0.1,
+      "folate": 0
+    },
+    "minerals": {
+      "calcium": 0,
+      "iron": 0,
+      "zinc": 0,
+      "potassium": 0,
+      "magnesium": 0,
+      "sodium": 0
+    },
+    "glycemicIndex": "Low",
+    "tags": ["MCT Rich", "Keto Friendly", "Quick Energy"]
+  },
+  {
+    "name": "Buttermilk (Chhaas)",
+    "nameHindi": "छाछ",
+    "category": "Dairy",
+    "isVeg": true,
+    "standardServingSize": 200,
+    "servingUnit": "ml",
+    "householdServing": "1 glass (200ml)",
+    "macros": {
+      "protein": 3.2,
+      "calories": 80,
+      "carbs": 9.8,
+      "fats": 3.0,
+      "fiber": 0
+    },
+    "vitamins": {
+      "vitaminA": 40,
+      "vitaminB12": 0.4,
+      "vitaminC": 2.0,
+      "vitaminD": 0.8,
+      "vitaminE": 0.1,
+      "folate": 8
+    },
+    "minerals": {
+      "calcium": 230,
+      "iron": 0.2,
+      "zinc": 0.8,
+      "potassium": 300,
+      "magnesium": 24,
+      "sodium": 120
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Cooling Drink", "Probiotic", "Hydrating"]
+  },
+  {
+    "name": "Paneer Tikka",
+    "nameHindi": "पनीर टिक्का",
+    "category": "Snacks & Appetizers",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "4-5 pieces (100g)",
+    "macros": {
+      "protein": 14.5,
+      "calories": 210,
+      "carbs": 5.2,
+      "fats": 15.0,
+      "fiber": 0.8
+    },
+    "vitamins": {
+      "vitaminA": 120,
+      "vitaminB12": 0.6,
+      "vitaminC": 4.5,
+      "vitaminD": 8.0,
+      "vitaminE": 0.4,
+      "folate": 15
+    },
+    "minerals": {
+      "calcium": 350,
+      "iron": 0.5,
+      "zinc": 2.1,
+      "potassium": 190,
+      "magnesium": 20,
+      "sodium": 320
+    },
+    "glycemicIndex": "Low",
+    "tags": ["High Protein", "Appetizer", "Low Carb"]
+  },
+  {
+    "name": "Samosa",
+    "nameHindi": "समोसा",
+    "category": "Snacks & Appetizers",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 medium piece (80g)",
+    "macros": {
+      "protein": 3.5,
+      "calories": 262,
+      "carbs": 31.0,
+      "fats": 14.0,
+      "fiber": 2.1
+    },
+    "vitamins": {
+      "vitaminA": 15,
+      "vitaminB12": 0,
+      "vitaminC": 4.0,
+      "vitaminD": 0,
+      "vitaminE": 0.3,
+      "folate": 12
+    },
+    "minerals": {
+      "calcium": 18,
+      "iron": 1.0,
+      "zinc": 0.5,
+      "potassium": 180,
+      "magnesium": 22,
+      "sodium": 350
+    },
+    "glycemicIndex": "High",
+    "tags": ["Fried Snack", "Popular Street Food", "Comfort Snack"]
+  },
+  {
+    "name": "Jalebi",
+    "nameHindi": "जलेबी",
+    "category": "Sweets & Desserts",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "3-4 medium pieces (100g)",
+    "macros": {
+      "protein": 1.2,
+      "calories": 405,
+      "carbs": 79.0,
+      "fats": 9.5,
+      "fiber": 0.5
+    },
+    "vitamins": {
+      "vitaminA": 5,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "vitaminE": 0.2,
+      "folate": 8
+    },
+    "minerals": {
+      "calcium": 12,
+      "iron": 0.6,
+      "zinc": 0.3,
+      "potassium": 45,
+      "magnesium": 10,
+      "sodium": 40
+    },
+    "glycemicIndex": "High",
+    "tags": ["Traditional Sweet", "High Sugar", "Festive Treat"]
+  },
+  {
+    "name": "Gulab Jamun",
+    "nameHindi": "गुलाब जामुन",
+    "category": "Sweets & Desserts",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "2 medium pieces (80g)",
+    "macros": {
+      "protein": 4.0,
+      "calories": 360,
+      "carbs": 52.0,
+      "fats": 16.0,
+      "fiber": 0.2
+    },
+    "vitamins": {
+      "vitaminA": 85,
+      "vitaminB12": 0.3,
+      "vitaminC": 0.5,
+      "vitaminD": 4.0,
+      "vitaminE": 0.5,
+      "folate": 10
+    },
+    "minerals": {
+      "calcium": 140,
+      "iron": 0.4,
+      "zinc": 0.8,
+      "potassium": 120,
+      "magnesium": 15,
+      "sodium": 95
+    },
+    "glycemicIndex": "High",
+    "tags": ["Festive Dessert", "Rich in Dairy", "High Calorie"]
+  },
+  {
+    "name": "Kheer (Rice Pudding)",
+    "nameHindi": "चावल की खीर",
+    "category": "Sweets & Desserts",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 small bowl (120g)",
+    "macros": {
+      "protein": 3.8,
+      "calories": 135,
+      "carbs": 21.5,
+      "fats": 4.2,
+      "fiber": 0.4
+    },
+    "vitamins": {
+      "vitaminA": 55,
+      "vitaminB12": 0.3,
+      "vitaminC": 1.0,
+      "vitaminD": 1.5,
+      "vitaminE": 0.2,
+      "folate": 7
+    },
+    "minerals": {
+      "calcium": 130,
+      "iron": 0.2,
+      "zinc": 0.5,
+      "potassium": 140,
+      "magnesium": 14,
+      "sodium": 50
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["Traditional Dessert", "Rich in Calcium", "Festive Treat"]
+  },
+  {
+    "name": "Boiled Green Peas",
+    "nameHindi": "उबली हरी मटर",
+    "category": "Vegetables",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1/2 cup (100g)",
+    "macros": {
+      "protein": 5.4,
+      "calories": 84,
+      "carbs": 15.6,
+      "fats": 0.2,
+      "fiber": 5.5
+    },
+    "vitamins": {
+      "vitaminA": 38,
+      "vitaminB12": 0,
+      "vitaminC": 10.1,
+      "vitaminD": 0,
+      "vitaminE": 0.2,
+      "folate": 65
+    },
+    "minerals": {
+      "calcium": 20,
+      "iron": 1.5,
+      "zinc": 1.0,
+      "potassium": 113,
+      "magnesium": 33,
+      "sodium": 2
+    },
+    "glycemicIndex": "Low",
+    "tags": ["High Fiber", "Plant Protein", "Rich in Folate"]
+  },
+  {
+    "name": "Cucumber",
+    "nameHindi": "खीरा",
+    "category": "Vegetables",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 medium cucumber (150g)",
+    "macros": {
+      "protein": 0.7,
+      "calories": 15,
+      "carbs": 3.6,
+      "fats": 0.1,
+      "fiber": 0.5
+    },
+    "vitamins": {
+      "vitaminA": 5,
+      "vitaminB12": 0,
+      "vitaminC": 2.8,
+      "vitaminD": 0,
+      "vitaminE": 0.03,
+      "folate": 7
+    },
+    "minerals": {
+      "calcium": 16,
+      "iron": 0.3,
+      "zinc": 0.2,
+      "potassium": 147,
+      "magnesium": 13,
+      "sodium": 2
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Hydrating", "Low Calorie", "Salad Staple"]
+  },
+  {
+    "name": "Radish (Muli)",
+    "nameHindi": "मूली",
+    "category": "Vegetables",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 medium radish (80g)",
+    "macros": {
+      "protein": 0.7,
+      "calories": 16,
+      "carbs": 3.4,
+      "fats": 0.1,
+      "fiber": 1.6
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 14.8,
+      "vitaminD": 0,
+      "vitaminE": 0.03,
+      "folate": 25
+    },
+    "minerals": {
+      "calcium": 25,
+      "iron": 0.3,
+      "zinc": 0.1,
+      "potassium": 233,
+      "magnesium": 10,
+      "sodium": 18
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Detox", "Digestive Aid", "Low Calorie"]
+  },
+  {
+    "name": "Sweet Corn",
+    "nameHindi": "स्वीट कॉर्न",
+    "category": "Vegetables",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1/2 cup boiled corn (90g)",
+    "macros": {
+      "protein": 3.3,
+      "calories": 86,
+      "carbs": 18.7,
+      "fats": 1.4,
+      "fiber": 2.0
+    },
+    "vitamins": {
+      "vitaminA": 9,
+      "vitaminB12": 0,
+      "vitaminC": 6.8,
+      "vitaminD": 0,
+      "vitaminE": 0.1,
+      "folate": 42
+    },
+    "minerals": {
+      "calcium": 2,
+      "iron": 0.5,
+      "zinc": 0.5,
+      "potassium": 270,
+      "magnesium": 37,
+      "sodium": 15
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["High Energy", "Antioxidant Rich", "Snack Choice"]
+  },
+  {
+    "name": "Watermelon",
+    "nameHindi": "तरबूज",
+    "category": "Fruits",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 large wedge (200g)",
+    "macros": {
+      "protein": 0.6,
+      "calories": 30,
+      "carbs": 7.6,
+      "fats": 0.2,
+      "fiber": 0.4
+    },
+    "vitamins": {
+      "vitaminA": 28,
+      "vitaminB12": 0,
+      "vitaminC": 8.1,
+      "vitaminD": 0,
+      "vitaminE": 0.05,
+      "folate": 3
+    },
+    "minerals": {
+      "calcium": 7,
+      "iron": 0.2,
+      "zinc": 0.1,
+      "potassium": 112,
+      "magnesium": 10,
+      "sodium": 1
+    },
+    "glycemicIndex": "High",
+    "tags": ["Extremely Hydrating", "Lycopene", "Low Calorie"]
+  },
+  {
+    "name": "Muskmelon (Kharbuja)",
+    "nameHindi": "खरबूजा",
+    "category": "Fruits",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl diced melon (140g)",
+    "macros": {
+      "protein": 0.8,
+      "calories": 34,
+      "carbs": 8.2,
+      "fats": 0.2,
+      "fiber": 0.9
+    },
+    "vitamins": {
+      "vitaminA": 169,
+      "vitaminB12": 0,
+      "vitaminC": 36.7,
+      "vitaminD": 0,
+      "vitaminE": 0.05,
+      "folate": 21
+    },
+    "minerals": {
+      "calcium": 9,
+      "iron": 0.2,
+      "zinc": 0.1,
+      "potassium": 267,
+      "magnesium": 12,
+      "sodium": 16
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["High Vitamin A", "Hydrating", "Refreshing"]
+  },
+  {
+    "name": "Grapes",
+    "nameHindi": "अंगूर",
+    "category": "Fruits",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 cup grapes (150g)",
+    "macros": {
+      "protein": 0.7,
+      "calories": 69,
+      "carbs": 18.1,
+      "fats": 0.2,
+      "fiber": 0.9
+    },
+    "vitamins": {
+      "vitaminA": 3,
+      "vitaminB12": 0,
+      "vitaminC": 3.2,
+      "vitaminD": 0,
+      "vitaminE": 0.2,
+      "folate": 2 }
+    ,
+    "minerals": {
+      "calcium": 10,
+      "iron": 0.4,
+      "zinc": 0.07,
+      "potassium": 191,
+      "magnesium": 7,
+      "sodium": 2
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["Antioxidant Rich", "Heart Health", "Quick Energy"]
+  },
+  {
+    "name": "Orange",
+    "nameHindi": "संतरा",
+    "category": "Fruits",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 medium orange (130g)",
+    "macros": {
+      "protein": 0.9,
+      "calories": 47,
+      "carbs": 11.8,
+      "fats": 0.1,
+      "fiber": 2.4
+    },
+    "vitamins": {
+      "vitaminA": 11,
+      "vitaminB12": 0,
+      "vitaminC": 53.2,
+      "vitaminD": 0,
+      "vitaminE": 0.2,
+      "folate": 30
+    },
+    "minerals": {
+      "calcium": 43,
+      "iron": 0.1,
+      "zinc": 0.07,
+      "potassium": 181,
+      "magnesium": 10,
+      "sodium": 0 }
+    ,
+    "glycemicIndex": "Low",
+    "tags": ["High Vitamin C", "Immunity", "Skin Health"]
+  },
+  {
+    "name": "Pineapple",
+    "nameHindi": "अनानास",
+    "category": "Fruits",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 cup cubed pineapple (165g)",
+    "macros": {
+      "protein": 0.5,
+      "calories": 50,
+      "carbs": 13.1,
+      "fats": 0.1,
+      "fiber": 1.4
+    },
+    "vitamins": {
+      "vitaminA": 3,
+      "vitaminB12": 0,
+      "vitaminC": 47.8,
+      "vitaminD": 0,
+      "vitaminE": 0.1,
+      "folate": 18
+    },
+    "minerals": {
+      "calcium": 13,
+      "iron": 0.3,
+      "zinc": 0.1,
+      "potassium": 109,
+      "magnesium": 12,
+      "sodium": 1
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["Contains Bromelain", "Anti-inflammatory", "Digestive Aid"]
+  },
+  {
+    "name": "Bajra (Pearl Millet)",
+    "nameHindi": "बाजरा",
+    "category": "Cereals & Grains",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "2 bajra rotis (80g flour)",
+    "macros": {
+      "protein": 11.6,
+      "calories": 361,
+      "carbs": 67.5,
+      "fats": 5.0,
+      "fiber": 11.5
+    },
+    "vitamins": {
+      "vitaminA": 5,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "vitaminE": 0.2,
+      "folate": 45
+    },
+    "minerals": {
+      "calcium": 42,
+      "iron": 8.0,
+      "zinc": 3.1,
+      "potassium": 307,
+      "magnesium": 137,
+      "sodium": 5
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Gluten Free", "High Iron", "Winter Grain"]
+  },
+  {
+    "name": "Jowar (Sorghum)",
+    "nameHindi": "ज्वार",
+    "category": "Cereals & Grains",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "2 jowar rotis (80g flour)",
+    "macros": {
+      "protein": 10.4,
+      "calories": 349,
+      "carbs": 72.1,
+      "fats": 1.9,
+      "fiber": 6.7
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "vitaminE": 0.4,
+      "folate": 20
+    },
+    "minerals": {
+      "calcium": 25,
+      "iron": 4.1,
+      "zinc": 1.6,
+      "potassium": 350,
+      "magnesium": 133,
+      "sodium": 6
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Gluten Free", "High Fiber", "Heart Friendly"]
+  },
+  {
+    "name": "Ragi (Finger Millet)",
+    "nameHindi": "रागी",
+    "category": "Cereals & Grains",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "2 ragi rotis / 1 bowl porridge (60g)",
+    "macros": {
+      "protein": 7.3,
+      "calories": 336,
+      "carbs": 72.0,
+      "fats": 1.3,
+      "fiber": 11.2
+    },
+    "vitamins": {
+      "vitaminA": 42,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "vitaminE": 0.5,
+      "folate": 18
+    },
+    "minerals": {
+      "calcium": 344,
+      "iron": 3.9,
+      "zinc": 2.3,
+      "potassium": 408,
+      "magnesium": 137,
+      "sodium": 11
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Calcium Powerhouse", "Gluten Free", "Baby Food Staple"]
+  },
+  {
+    "name": "Makki ka Atta (Corn Flour)",
+    "nameHindi": "मक्के का आटा",
+    "category": "Cereals & Grains",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "2 makki rotis (80g)",
+    "macros": {
+      "protein": 6.9,
+      "calories": 365,
+      "carbs": 74.4,
+      "fats": 3.8,
+      "fiber": 7.3
+    },
+    "vitamins": {
+      "vitaminA": 11,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "vitaminE": 0.4,
+      "folate": 26
+    },
+    "minerals": {
+      "calcium": 7,
+      "iron": 2.7,
+      "zinc": 1.7,
+      "potassium": 256,
+      "magnesium": 95,
+      "sodium": 6
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["Winter Favorite", "Gluten Free", "Traditional Flour"]
+  },
+  {
+    "name": "Sabudana (Tapioca Pearls)",
+    "nameHindi": "साबूदाना",
+    "category": "Cereals & Grains",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl cooked sabudana khichdi (150g)",
+    "macros": {
+      "protein": 0.2,
+      "calories": 358,
+      "carbs": 88.7,
+      "fats": 0.2,
+      "fiber": 0.9
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "vitaminE": 0.1,
+      "folate": 1 }
+    ,
+    "minerals": {
+      "calcium": 20,
+      "iron": 1.2,
+      "zinc": 0.1,
+      "potassium": 11,
+      "magnesium": 5,
+      "sodium": 1
+    },
+    "glycemicIndex": "High",
+    "tags": ["Fast Food", "Quick Energy", "Gluten Free"]
+  },
+  {
+    "name": "Makhana (Fox Nuts)",
+    "nameHindi": "मखाना",
+    "category": "Nuts & Seeds",
+    "isVeg": true,
+    "standardServingSize": 30,
+    "servingUnit": "g",
+    "householdServing": "1 large bowl roasted makhana (30g)",
+    "macros": {
+      "protein": 2.9,
+      "calories": 106,
+      "carbs": 22.5,
+      "fats": 0.3,
+      "fiber": 1.4
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "vitaminE": 0.1,
+      "folate": 4
+    },
+    "minerals": {
+      "calcium": 18,
+      "iron": 0.4,
+      "zinc": 0.4,
+      "potassium": 102,
+      "magnesium": 31,
+      "sodium": 1
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Weight Loss Snack", "Low Calorie", "Heart Healthy"]
+  },
+  {
+    "name": "Sunflower Seeds",
+    "nameHindi": "सूरजमुखी के बीज",
+    "category": "Nuts & Seeds",
+    "isVeg": true,
+    "standardServingSize": 30,
+    "servingUnit": "g",
+    "householdServing": "2 tablespoons (30g)",
+    "macros": {
+      "protein": 6.2,
+      "calories": 174,
+      "carbs": 6.0,
+      "fats": 15.0,
+      "fiber": 3.0
+    },
+    "vitamins": {
+      "vitaminA": 1,
+      "vitaminB12": 0,
+      "vitaminC": 0.4,
+      "vitaminD": 0,
+      "vitaminE": 7.4,
+      "folate": 67
+    },
+    "minerals": {
+      "calcium": 23,
+      "iron": 1.5,
+      "zinc": 1.5,
+      "potassium": 194,
+      "magnesium": 97,
+      "sodium": 3
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Vitamin E Rich", "Healthy Fats", "Immunity Booster"]
+  },
+  {
+    "name": "Pumpkin Seeds",
+    "nameHindi": "कद्दू के बीज",
+    "category": "Nuts & Seeds",
+    "isVeg": true,
+    "standardServingSize": 30,
+    "servingUnit": "g",
+    "householdServing": "2 tablespoons (30g)",
+    "macros": {
+      "protein": 9.0,
+      "calories": 165,
+      "carbs": 3.2,
+      "fats": 14.0,
+      "fiber": 1.8
+    },
+    "vitamins": {
+      "vitaminA": 3,
+      "vitaminB12": 0,
+      "vitaminC": 0.5,
+      "vitaminD": 0,
+      "vitaminE": 0.6,
+      "folate": 17
+    },
+    "minerals": {
+      "calcium": 14,
+      "iron": 2.5,
+      "zinc": 2.2,
+      "potassium": 240,
+      "magnesium": 156,
+      "sodium": 2
+    },
+    "glycemicIndex": "Low",
+    "tags": ["High Magnesium", "Zinc Rich", "Prostate Health"]
+  },
+  {
+    "name": "Brown Bread",
+    "nameHindi": "ब्राउन ब्रेड",
+    "category": "Cereals & Grains",
+    "isVeg": true,
+    "standardServingSize": 50,
+    "servingUnit": "g",
+    "householdServing": "2 slices (50g)",
+    "macros": {
+      "protein": 4.5,
+      "calories": 125,
+      "carbs": 24.0,
+      "fats": 1.5,
+      "fiber": 3.0
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "vitaminE": 0.2,
+      "folate": 20
+    },
+    "minerals": {
+      "calcium": 45,
+      "iron": 1.2,
+      "zinc": 0.7,
+      "potassium": 110,
+      "magnesium": 30,
+      "sodium": 230
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["Whole Wheat", "High Fiber", "Breakfast Option"]
+  },
+  {
+    "name": "Paneer Bhurji",
+    "nameHindi": "पनीर भुर्जी",
+    "category": "Prepared Dishes",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl (100g)",
+    "macros": {
+      "protein": 15.2,
+      "calories": 230,
+      "carbs": 4.1,
+      "fats": 17.2,
+      "fiber": 1.0
+    },
+    "vitamins": {
+      "vitaminA": 150,
+      "vitaminB12": 0.7,
+      "vitaminC": 12.0,
+      "vitaminD": 9.5,
+      "vitaminE": 0.6,
+      "folate": 20
+    },
+    "minerals": {
+      "calcium": 400,
+      "iron": 0.6,
+      "zinc": 2.3,
+      "potassium": 170,
+      "magnesium": 22,
+      "sodium": 280
+    },
+    "glycemicIndex": "Low",
+    "tags": ["High Protein", "Low Carb", "Quick Dish"]
+  },
+  {
+    "name": "Dal Tadka (Yellow Dal)",
+    "nameHindi": "दाल तड़का",
+    "category": "Prepared Dishes",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 medium bowl (150g)",
+    "macros": {
+      "protein": 6.5,
+      "calories": 115,
+      "carbs": 14.5,
+      "fats": 4.0,
+      "fiber": 4.5
+    },
+    "vitamins": {
+      "vitaminA": 25,
+      "vitaminB12": 0,
+      "vitaminC": 2.0,
+      "vitaminD": 0,
+      "vitaminE": 0.5,
+      "folate": 45
+    },
+    "minerals": {
+      "calcium": 30,
+      "iron": 1.5,
+      "zinc": 0.8,
+      "potassium": 320,
+      "magnesium": 40,
+      "sodium": 310
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Comfort Food", "Protein Rich", "Traditional Recipe"]
+  },
+  {
+    "name": "Mixed Vegetable Curry",
+    "nameHindi": "मिक्स वेज सब्जी",
+    "category": "Prepared Dishes",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl (150g)",
+    "macros": {
+      "protein": 2.1,
+      "calories": 75,
+      "carbs": 8.5,
+      "fats": 4.2,
+      "fiber": 2.5
+    },
+    "vitamins": {
+      "vitaminA": 240,
+      "vitaminB12": 0,
+      "vitaminC": 18.0,
+      "vitaminD": 0,
+      "vitaminE": 0.8,
+      "folate": 35
+    },
+    "minerals": {
+      "calcium": 35,
+      "iron": 0.7,
+      "zinc": 0.4,
+      "potassium": 280,
+      "magnesium": 25,
+      "sodium": 290
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Nutrient Dense", "Fiber Rich", "Balanced Meal"]
+  },
+  {
+    "name": "Aloo Gobi",
+    "nameHindi": "आलू गोभी",
+    "category": "Prepared Dishes",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl (150g)",
+    "macros": {
+      "protein": 2.0,
+      "calories": 95,
+      "carbs": 12.0,
+      "fats": 5.0,
+      "fiber": 2.2
+    },
+    "vitamins": {
+      "vitaminA": 20,
+      "vitaminB12": 0,
+      "vitaminC": 25.0,
+      "vitaminD": 0,
+      "vitaminE": 0.5,
+      "folate": 30
+    },
+    "minerals": {
+      "calcium": 25,
+      "iron": 0.6,
+      "zinc": 0.4,
+      "potassium": 290,
+      "magnesium": 20,
+      "sodium": 300
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["Classic Indian", "Side Dish", "Comfort Food"]
+  },
+  {
+    "name": "Chicken Curry",
+    "nameHindi": "चिकन करी",
+    "category": "Prepared Dishes",
+    "isVeg": false,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl (150g)",
+    "macros": {
+      "protein": 14.5,
+      "calories": 160,
+      "carbs": 3.5,
+      "fats": 10.2,
+      "fiber": 0.8
+    },
+    "vitamins": {
+      "vitaminA": 40,
+      "vitaminB12": 0.4,
+      "vitaminC": 5.0,
+      "vitaminD": 0.2,
+      "vitaminE": 0.6,
+      "folate": 10
+    },
+    "minerals": {
+      "calcium": 20,
+      "iron": 0.9,
+      "zinc": 1.2,
+      "potassium": 210,
+      "magnesium": 22,
+      "sodium": 340
+    },
+    "glycemicIndex": "Low",
+    "tags": ["High Protein", "Non-Veg Staple", "Flavorful"]
+  },
+  {
+    "name": "Mutton Curry",
+    "nameHindi": "मटन करी",
+    "category": "Prepared Dishes",
+    "isVeg": false,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl (150g)",
+    "macros": {
+      "protein": 16.0,
+      "calories": 210,
+      "carbs": 4.0,
+      "fats": 15.0,
+      "fiber": 0.8
+    },
+    "vitamins": {
+      "vitaminA": 30,
+      "vitaminB12": 1.8,
+      "vitaminC": 4.0,
+      "vitaminD": 0.1,
+      "vitaminE": 0.5,
+      "folate": 8
+    },
+    "minerals": {
+      "calcium": 22,
+      "iron": 2.5,
+      "zinc": 3.5,
+      "potassium": 250,
+      "magnesium": 24,
+      "sodium": 360
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Rich Protein", "Iron Dense", "Celebration Dish"]
+  },
+  {
+    "name": "Fish Curry",
+    "nameHindi": "मछली करी",
+    "category": "Prepared Dishes",
+    "isVeg": false,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl (150g)",
+    "macros": {
+      "protein": 13.5,
+      "calories": 135,
+      "carbs": 4.5,
+      "fats": 7.2,
+      "fiber": 0.7
+    },
+    "vitamins": {
+      "vitaminA": 45,
+      "vitaminB12": 1.0,
+      "vitaminC": 6.0,
+      "vitaminD": 3.5,
+      "vitaminE": 0.7,
+      "folate": 12
+    },
+    "minerals": {
+      "calcium": 150,
+      "iron": 1.0,
+      "zinc": 0.9,
+      "potassium": 260,
+      "magnesium": 28,
+      "sodium": 320
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Omega-3 Rich", "Heart Healthy", "Traditional"]
+  },
+  {
+    "name": "Khichdi (Moong Dal & Rice)",
+    "nameHindi": "दाल खिचड़ी",
+    "category": "Prepared Dishes",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 large bowl (200g)",
+    "macros": {
+      "protein": 4.5,
+      "calories": 110,
+      "carbs": 18.0,
+      "fats": 2.5,
+      "fiber": 2.0
+    },
+    "vitamins": {
+      "vitaminA": 30,
+      "vitaminB12": 0,
+      "vitaminC": 1.5,
+      "vitaminD": 0.5,
+      "vitaminE": 0.3,
+      "folate": 35
+    },
+    "minerals": {
+      "calcium": 25,
+      "iron": 1.2,
+      "zinc": 0.7,
+      "potassium": 140,
+      "magnesium": 25,
+      "sodium": 200
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["Digestive Comfort", "Healing Food", "Balanced Meal"]
+  },
+  {
+    "name": "Lemon Rice",
+    "nameHindi": "नींबू चावल",
+    "category": "Prepared Dishes",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 plate (150g)",
+    "macros": {
+      "protein": 2.8,
+      "calories": 155,
+      "carbs": 26.5,
+      "fats": 4.5,
+      "fiber": 1.0
+    },
+    "vitamins": {
+      "vitaminA": 20,
+      "vitaminB12": 0,
+      "vitaminC": 8.5,
+      "vitaminD": 0,
+      "vitaminE": 0.4,
+      "folate": 15
+    },
+    "minerals": {
+      "calcium": 18,
+      "iron": 0.8,
+      "zinc": 0.5,
+      "potassium": 90,
+      "magnesium": 18,
+      "sodium": 310
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["South Indian", "Tangy Flavor", "Quick Dish"]
+  },
+  {
+    "name": "Vegetable Biryani",
+    "nameHindi": "वेज बिरयानी",
+    "category": "Prepared Dishes",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 plate (200g)",
+    "macros": {
+      "protein": 3.5,
+      "calories": 165,
+      "carbs": 27.0,
+      "fats": 5.2,
+      "fiber": 2.2
+    },
+    "vitamins": {
+      "vitaminA": 80,
+      "vitaminB12": 0,
+      "vitaminC": 6.0,
+      "vitaminD": 0.5,
+      "vitaminE": 0.7,
+      "folate": 25
+    },
+    "minerals": {
+      "calcium": 30,
+      "iron": 1.1,
+      "zinc": 0.8,
+      "potassium": 180,
+      "magnesium": 32,
+      "sodium": 380
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["Aromatic", "Festive Dish", "One-Pot Meal"]
+  },
+  {
+    "name": "Chicken Biryani",
+    "nameHindi": "चिकन बिरयानी",
+    "category": "Prepared Dishes",
+    "isVeg": false,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 plate (250g)",
+    "macros": {
+      "protein": 9.5,
+      "calories": 190,
+      "carbs": 22.0,
+      "fats": 7.5,
+      "fiber": 1.2
+    },
+    "vitamins": {
+      "vitaminA": 60,
+      "vitaminB12": 0.5,
+      "vitaminC": 4.0,
+      "vitaminD": 0.8,
+      "vitaminE": 0.8,
+      "folate": 18
+    },
+    "minerals": {
+      "calcium": 28,
+      "iron": 1.4,
+      "zinc": 1.2,
+      "potassium": 210,
+      "magnesium": 30,
+      "sodium": 410
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["Popular Main Dish", "High Protein", "Festive Favorite"]
+  },
+  {
+    "name": "Boiled Chickpeas (Chole)",
+    "nameHindi": "उबले छोले",
+    "category": "Pulses & Legumes",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl (150g)",
+    "macros": {
+      "protein": 8.9,
+      "calories": 164,
+      "carbs": 27.4,
+      "fats": 2.6,
+      "fiber": 7.6
+    },
+    "vitamins": {
+      "vitaminA": 30,
+      "vitaminB12": 0,
+      "vitaminC": 1.3,
+      "vitaminD": 0,
+      "vitaminE": 0.4,
+      "folate": 172
+    },
+    "minerals": {
+      "calcium": 49,
+      "iron": 2.9,
+      "zinc": 1.5,
+      "potassium": 291,
+      "magnesium": 48,
+      "sodium": 7
+    },
+    "glycemicIndex": "Low",
+    "tags": ["High Fiber", "Plant Protein", "Heart Healthy"]
+  },
+  {
+    "name": "Green Chutney (Coriander & Mint)",
+    "nameHindi": "हरी चटनी",
+    "category": "Condiments",
+    "isVeg": true,
+    "standardServingSize": 30,
+    "servingUnit": "g",
+    "householdServing": "2 tablespoons (30g)",
+    "macros": {
+      "protein": 1.0,
+      "calories": 35,
+      "carbs": 4.5,
+      "fats": 1.8,
+      "fiber": 1.5
+    },
+    "vitamins": {
+      "vitaminA": 450,
+      "vitaminB12": 0,
+      "vitaminC": 15.0,
+      "vitaminD": 0,
+      "vitaminE": 0.8,
+      "folate": 40
+    },
+    "minerals": {
+      "calcium": 45,
+      "iron": 1.2,
+      "zinc": 0.3,
+      "potassium": 160,
+      "magnesium": 20,
+      "sodium": 220
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Herbal", "Antioxidant Rich", "Digestive Aid"]
+  },
+  {
+    "name": "Tamarind Chutney",
+    "nameHindi": "इमली की चटनी",
+    "category": "Condiments",
+    "isVeg": true,
+    "standardServingSize": 30,
+    "servingUnit": "g",
+    "householdServing": "2 tablespoons (30g)",
+    "macros": {
+      "protein": 0.8,
+      "calories": 75,
+      "carbs": 18.5,
+      "fats": 0.2,
+      "fiber": 1.0
+    },
+    "vitamins": {
+      "vitaminA": 5,
+      "vitaminB12": 0,
+      "vitaminC": 2.5,
+      "vitaminD": 0,
+      "vitaminE": 0.1,
+      "folate": 10
+    },
+    "minerals": {
+      "calcium": 25,
+      "iron": 0.8,
+      "zinc": 0.2,
+      "potassium": 110,
+      "magnesium": 22,
+      "sodium": 180
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["Sweet & Tangy", "Appetizer Accompaniment", "Traditional"]
+  },
+  {
+    "name": "Boiled Sweet Potato (Shakarkandi)",
+    "nameHindi": "शकरकंद",
+    "category": "Vegetables",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 medium sweet potato (130g)",
+    "macros": {
+      "protein": 1.6,
+      "calories": 86,
+      "carbs": 20.1,
+      "fats": 0.1,
+      "fiber": 3.0
+    },
+    "vitamins": {
+      "vitaminA": 709,
+      "vitaminB12": 0,
+      "vitaminC": 12.8,
+      "vitaminD": 0,
+      "vitaminE": 0.3,
+      "folate": 6
+    },
+    "minerals": {
+      "calcium": 30,
+      "iron": 0.6,
+      "zinc": 0.3,
+      "potassium": 337,
+      "magnesium": 25,
+      "sodium": 27
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["High Vitamin A", "Complex Carbs", "Energy Booster"]
+  },
+  {
+    "name": "Radish Leaves (Muli ke Patte)",
+    "nameHindi": "मूली के पत्ते",
+    "category": "Vegetables",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl cooked greens (100g)",
+    "macros": {
+      "protein": 3.8,
+      "calories": 30,
+      "carbs": 4.2,
+      "fats": 0.4,
+      "fiber": 3.5
+    },
+    "vitamins": {
+      "vitaminA": 580,
+      "vitaminB12": 0,
+      "vitaminC": 64.0,
+      "vitaminD": 0,
+      "vitaminE": 1.5,
+      "folate": 130
+    },
+    "minerals": {
+      "calcium": 270,
+      "iron": 3.1,
+      "zinc": 0.5,
+      "potassium": 450,
+      "magnesium": 45,
+      "sodium": 60
+    },
+    "glycemicIndex": "Low",
+    "tags": ["High Calcium", "Iron Rich", "Nutrient Dense"]
+  },
+  {
+    "name": "Turnip (Shalgam)",
+    "nameHindi": "शलजम",
+    "category": "Vegetables",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 medium turnip (100g)",
+    "macros": {
+      "protein": 0.9,
+      "calories": 28,
+      "carbs": 6.4,
+      "fats": 0.1,
+      "fiber": 1.8
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 21.0,
+      "vitaminD": 0,
+      "vitaminE": 0.03,
+      "folate": 15
+    },
+    "minerals": {
+      "calcium": 30,
+      "iron": 0.3,
+      "zinc": 0.2,
+      "potassium": 190,
+      "magnesium": 11,
+      "sodium": 67
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Low Calorie", "High Vitamin C", "Winter Vegetable"]
+  },
+  {
+    "name": "Lotus Stem (Kamal Kakdi)",
+    "nameHindi": "कमल ककड़ी",
+    "category": "Vegetables",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl sliced (100g)",
+    "macros": {
+      "protein": 2.6,
+      "calories": 74,
+      "carbs": 17.2,
+      "fats": 0.1,
+      "fiber": 4.9
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 44.0,
+      "vitaminD": 0,
+      "vitaminE": 0.3,
+      "folate": 13
+    },
+    "minerals": {
+      "calcium": 45,
+      "iron": 1.1,
+      "zinc": 0.4,
+      "potassium": 363,
+      "magnesium": 22,
+      "sodium": 40
+    },
+    "glycemicIndex": "Low",
+    "tags": ["High Fiber", "Vitamin C Rich", "Unique Vegetable"]
+  },
+  {
+    "name": "Raw Mango",
+    "nameHindi": "कच्चा आम",
+    "category": "Fruits",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1/2 cup sliced (100g)",
+    "macros": {
+      "protein": 0.5,
+      "calories": 50,
+      "carbs": 12.0,
+      "fats": 0.4,
+      "fiber": 1.5
+    },
+    "vitamins": {
+      "vitaminA": 60,
+      "vitaminB12": 0,
+      "vitaminC": 30.0,
+      "vitaminD": 0,
+      "vitaminE": 0.5,
+      "folate": 14
+    },
+    "minerals": {
+      "calcium": 10,
+      "iron": 0.2,
+      "zinc": 0.1,
+      "potassium": 130,
+      "magnesium": 10,
+      "sodium": 2
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Vitamin C Rich", "Summer Special", "Tangy"]
+  },
+  {
+    "name": "Amla (Indian Gooseberry)",
+    "nameHindi": "आंवला",
+    "category": "Fruits",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "2 medium amlas (100g)",
+    "macros": {
+      "protein": 0.5,
+      "calories": 44,
+      "carbs": 10.2,
+      "fats": 0.6,
+      "fiber": 4.3
+    },
+    "vitamins": {
+      "vitaminA": 14,
+      "vitaminB12": 0,
+      "vitaminC": 700.0,
+      "vitaminD": 0,
+      "vitaminE": 0.2,
+      "folate": 15
+    },
+    "minerals": {
+      "calcium": 25,
+      "iron": 0.3,
+      "zinc": 0.2,
+      "potassium": 198,
+      "magnesium": 10,
+      "sodium": 1
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Super Vitamin C", "Immunity Booster", "Ayurvedic Fruit"]
+  },
+  {
+    "name": "Jamun (Black Plum)",
+    "nameHindi": "जामुन",
+    "category": "Fruits",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "10-12 medium jamuns (100g)",
+    "macros": {
+      "protein": 0.7,
+      "calories": 60,
+      "carbs": 14.0,
+      "fats": 0.2,
+      "fiber": 0.9
+    },
+    "vitamins": {
+      "vitaminA": 15,
+      "vitaminB12": 0,
+      "vitaminC": 18.0,
+      "vitaminD": 0,
+      "vitaminE": 0.2,
+      "folate": 3
+    },
+    "minerals": {
+      "calcium": 15,
+      "iron": 1.2,
+      "zinc": 0.1,
+      "potassium": 55,
+      "magnesium": 15,
+      "sodium": 26
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Anti-Diabetic", "Monsoon Fruit", "Blood Purifier"]
+  },
+  {
+    "name": "Litchi",
+    "nameHindi": "लीची",
+    "category": "Fruits",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "8-10 peeled litchis (100g)",
+    "macros": {
+      "protein": 0.8,
+      "calories": 66,
+      "carbs": 16.5,
+      "fats": 0.4,
+      "fiber": 1.3
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 71.5,
+      "vitaminD": 0,
+      "vitaminE": 0.07,
+      "folate": 14
+    },
+    "minerals": {
+      "calcium": 5,
+      "iron": 0.3,
+      "zinc": 0.07,
+      "potassium": 171,
+      "magnesium": 10,
+      "sodium": 1
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["Juicy Summer Fruit", "High Vitamin C", "Antioxidant"]
+  },
+  {
+    "name": "Custard Apple (Sitaphal)",
+    "nameHindi": "शरीफा (सीताफल)",
+    "category": "Fruits",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 medium fruit flesh (120g)",
+    "macros": {
+      "protein": 1.6,
+      "calories": 94,
+      "carbs": 23.6,
+      "fats": 0.3,
+      "fiber": 4.4
+    },
+    "vitamins": {
+      "vitaminA": 9,
+      "vitaminB12": 0,
+      "vitaminC": 19.2,
+      "vitaminD": 0,
+      "vitaminE": 0.2,
+      "folate": 14
+    },
+    "minerals": {
+      "calcium": 24,
+      "iron": 0.6,
+      "zinc": 0.2,
+      "potassium": 282,
+      "magnesium": 30,
+      "sodium": 4
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["Energy Dense", "High Magnesium", "Rich Flavor"]
+  },
+  {
+    "name": "Jackfruit (Kathal - Cooked)",
+    "nameHindi": "कठहल",
+    "category": "Vegetables",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl cooked kathal (120g)",
+    "macros": {
+      "protein": 2.4,
+      "calories": 95,
+      "carbs": 23.5,
+      "fats": 0.3,
+      "fiber": 2.5
+    },
+    "vitamins": {
+      "vitaminA": 35,
+      "vitaminB12": 0,
+      "vitaminC": 13.7,
+      "vitaminD": 0,
+      "vitaminE": 0.4,
+      "folate": 24
+    },
+    "minerals": {
+      "calcium": 34,
+      "iron": 0.6,
+      "zinc": 0.2,
+      "potassium": 448,
+      "magnesium": 37,
+      "sodium": 3
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["Meat Alternative", "High Potassium", "Traditional Veg"]
+  },
+  {
+    "name": "Drumsticks (Moringa Pods)",
+    "nameHindi": "सहजन (ड्रमस्टिक)",
+    "category": "Vegetables",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl drumstick pieces (100g)",
+    "macros": {
+      "protein": 2.1,
+      "calories": 37,
+      "carbs": 8.5,
+      "fats": 0.2,
+      "fiber": 3.2
+    },
+    "vitamins": {
+      "vitaminA": 74,
+      "vitaminB12": 0,
+      "vitaminC": 141.0,
+      "vitaminD": 0,
+      "vitaminE": 0.1,
+      "folate": 44
+    },
+    "minerals": {
+      "calcium": 30,
+      "iron": 0.4,
+      "zinc": 0.5,
+      "potassium": 461,
+      "magnesium": 45,
+      "sodium": 113
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Vitamin C Super-source", "Joint Health", "Immunity"]
+  },
+  {
+    "name": "Arbi (Colocasia Root)",
+    "nameHindi": "अरबी",
+    "category": "Vegetables",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl boiled arbi (120g)",
+    "macros": {
+      "protein": 1.5,
+      "calories": 112,
+      "carbs": 26.5,
+      "fats": 0.2,
+      "fiber": 4.1
+    },
+    "vitamins": {
+      "vitaminA": 20,
+      "vitaminB12": 0,
+      "vitaminC": 8.5,
+      "vitaminD": 0,
+      "vitaminE": 0.3,
+      "folate": 22
+    },
+    "minerals": {
+      "calcium": 18,
+      "iron": 0.6,
+      "zinc": 0.3,
+      "potassium": 591,
+      "magnesium": 33,
+      "sodium": 11
+    },
+    "glycemicIndex": "Medium",
+    "tags": ["High Potassium", "High Fiber", "Energy Food"]
+  },
+  {
+    "name": "Suran (Elephant Foot Yam)",
+    "nameHindi": "सूरन (जिमीकंद)",
+    "category": "Vegetables",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl cooked yam (120g)",
+    "macros": {
+      "protein": 1.8,
+      "calories": 79,
+      "carbs": 18.5,
+      "fats": 0.2,
+      "fiber": 3.5
+    },
+    "vitamins": {
+      "vitaminA": 45,
+      "vitaminB12": 0,
+      "vitaminC": 17.0,
+      "vitaminD": 0,
+      "vitaminE": 0.3,
+      "folate": 15
+    },
+    "minerals": {
+      "calcium": 50,
+      "iron": 0.7,
+      "zinc": 0.4,
+      "potassium": 320,
+      "magnesium": 28,
+      "sodium": 10
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Ayurvedic Root", "High Fiber", "Stomach Health"]
+  },
+  {
+    "name": "Fox-Tail Millet (Kangni)",
+    "nameHindi": "कंगनी (फॉक्सटेल)",
+    "category": "Cereals & Grains",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl cooked millet (150g)",
+    "macros": {
+      "protein": 12.3,
+      "calories": 331,
+      "carbs": 60.9,
+      "fats": 4.3,
+      "fiber": 8.0
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "vitaminE": 0.2,
+      "folate": 15
+    },
+    "minerals": {
+      "calcium": 31,
+      "iron": 2.8,
+      "zinc": 2.4,
+      "potassium": 250,
+      "magnesium": 81,
+      "sodium": 5
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Ancient Grain", "Gluten Free", "Diabetic Friendly"]
+  },
+  {
+    "name": "Barnyard Millet (Sawa)",
+    "nameHindi": "सावा (बार्नयार्ड)",
+    "category": "Cereals & Grains",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl cooked sawa (150g)",
+    "macros": {
+      "protein": 11.2,
+      "calories": 307,
+      "carbs": 65.5,
+      "fats": 3.9,
+      "fiber": 9.8
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "vitaminE": 0.2,
+      "folate": 12
+    },
+    "minerals": {
+      "calcium": 20,
+      "iron": 5.0,
+      "zinc": 3.0,
+      "potassium": 210,
+      "magnesium": 82,
+      "sodium": 4
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Fasting Food", "High Iron", "High Fiber"]
+  },
+  {
+    "name": "Flax Seeds (Alsi)",
+    "nameHindi": "अलसी के बीज",
+    "category": "Nuts & Seeds",
+    "isVeg": true,
+    "standardServingSize": 20,
+    "servingUnit": "g",
+    "householdServing": "2 tablespoons (20g)",
+    "macros": {
+      "protein": 3.7,
+      "calories": 107,
+      "carbs": 5.8,
+      "fats": 8.4,
+      "fiber": 5.5
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 0.1,
+      "vitaminD": 0,
+      "vitaminE": 0.1,
+      "folate": 17
+    },
+    "minerals": {
+      "calcium": 51,
+      "iron": 1.1,
+      "zinc": 0.9,
+      "potassium": 164,
+      "magnesium": 79,
+      "sodium": 6
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Omega-3 Powerhouse", "High Fiber", "Heart Healthy"]
+  },
+  {
+    "name": "Sesame Seeds (Til)",
+    "nameHindi": "तिल",
+    "category": "Nuts & Seeds",
+    "isVeg": true,
+    "standardServingSize": 20,
+    "servingUnit": "g",
+    "householdServing": "2 tablespoons (20g)",
+    "macros": {
+      "protein": 3.5,
+      "calories": 114,
+      "carbs": 4.8,
+      "fats": 9.9,
+      "fiber": 2.4
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "vitaminE": 0.05,
+      "folate": 20
+    },
+    "minerals": {
+      "calcium": 195,
+      "iron": 2.9,
+      "zinc": 1.5,
+      "potassium": 93,
+      "magnesium": 70,
+      "sodium": 2
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Calcium Rich", "Winter Superfood", "Bone Health"]
+  },
+  {
+    "name": "Lotus Seeds Powder (Makhana Flour)",
+    "nameHindi": "मखाना आटा",
+    "category": "Cereals & Grains",
+    "isVeg": true,
+    "standardServingSize": 50,
+    "servingUnit": "g",
+    "householdServing": "3 tablespoons (50g)",
+    "macros": {
+      "protein": 4.8,
+      "calories": 175,
+      "carbs": 37.5,
+      "fats": 0.5,
+      "fiber": 2.3
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "vitaminE": 0.2,
+      "folate": 7
+    },
+    "minerals": {
+      "calcium": 30,
+      "iron": 0.7,
+      "zinc": 0.7,
+      "potassium": 170,
+      "magnesium": 52,
+      "sodium": 2
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Gluten Free", "Easy Digestion", "Light Flour"]
+  },
+  {
+    "name": "Kachumber Salad",
+    "nameHindi": "कचुंबर सलाद",
+    "category": "Salads",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl salad (120g)",
+    "macros": {
+      "protein": 0.9,
+      "calories": 25,
+      "carbs": 5.2,
+      "fats": 0.2,
+      "fiber": 1.3
+    },
+    "vitamins": {
+      "vitaminA": 20,
+      "vitaminB12": 0,
+      "vitaminC": 12.0,
+      "vitaminD": 0,
+      "vitaminE": 0.2,
+      "folate": 15
+    },
+    "minerals": {
+      "calcium": 18,
+      "iron": 0.3,
+      "zinc": 0.2,
+      "potassium": 210,
+      "magnesium": 14,
+      "sodium": 150
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Raw Salad", "Hydrating", "Low Calorie"]
+  },
+  {
+    "name": "Sprouts Salad",
+    "nameHindi": "स्प्राउट्स सलाद",
+    "category": "Salads",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 medium bowl (120g)",
+    "macros": {
+      "protein": 5.8,
+      "calories": 78,
+      "carbs": 12.5,
+      "fats": 0.8,
+      "fiber": 3.8
+    },
+    "vitamins": {
+      "vitaminA": 35,
+      "vitaminB12": 0,
+      "vitaminC": 14.0,
+      "vitaminD": 0,
+      "vitaminE": 0.4,
+      "folate": 65
+    },
+    "minerals": {
+      "calcium": 42,
+      "iron": 1.8,
+      "zinc": 0.9,
+      "potassium": 250,
+      "magnesium": 45,
+      "sodium": 120
+    },
+    "glycemicIndex": "Low",
+    "tags": ["High Protein", "Enzyme Rich", "Fitness Food"]
+  },
+  {
+    "name": "Boiled Black-Eyed Peas (Lobia)",
+    "nameHindi": "लोबिया",
+    "category": "Pulses & Legumes",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl cooked lobia (150g)",
+    "macros": {
+      "protein": 7.7,
+      "calories": 116,
+      "carbs": 20.8,
+      "fats": 0.5,
+      "fiber": 6.5
+    },
+    "vitamins": {
+      "vitaminA": 13,
+      "vitaminB12": 0,
+      "vitaminC": 1.2,
+      "vitaminD": 0,
+      "vitaminE": 0.1,
+      "folate": 208
+    },
+    "minerals": {
+      "calcium": 25,
+      "iron": 2.5,
+      "zinc": 1.0,
+      "potassium": 303,
+      "magnesium": 51,
+      "sodium": 3 }
+    ,
+    "glycemicIndex": "Low",
+    "tags": ["High Folate", "High Fiber", "Plant Protein"]
+  },
+  {
+    "name": "Horse Gram (Kulthi)",
+    "nameHindi": "कुल्थी दाल",
+    "category": "Pulses & Legumes",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl cooked kulthi (150g)",
+    "macros": {
+      "protein": 22.0,
+      "calories": 321,
+      "carbs": 57.2,
+      "fats": 0.5,
+      "fiber": 10.2
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 1.0,
+      "vitaminD": 0,
+      "vitaminE": 0.3,
+      "folate": 102
+    },
+    "minerals": {
+      "calcium": 287,
+      "iron": 6.7,
+      "zinc": 3.0,
+      "potassium": 750,
+      "magnesium": 150,
+      "sodium": 20
+    },
+    "glycemicIndex": "Low",
+    "tags": ["High Calcium", "Weight Loss Dal", "Traditional Remedy"]
+  },
+  {
+    "name": "Moth Beans (Matki)",
+    "nameHindi": "मठ (मोठ)",
+    "category": "Pulses & Legumes",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 bowl cooked moth (150g)",
+    "macros": {
+      "protein": 23.6,
+      "calories": 343,
+      "carbs": 61.5,
+      "fats": 1.6,
+      "fiber": 15.4
+    },
+    "vitamins": {
+      "vitaminA": 22,
+      "vitaminB12": 0,
+      "vitaminC": 2.0,
+      "vitaminD": 0,
+      "vitaminE": 0.5,
+      "folate": 370
+    },
+    "minerals": {
+      "calcium": 150,
+      "iron": 5.5,
+      "zinc": 2.8,
+      "potassium": 1200,
+      "magnesium": 240,
+      "sodium": 38
+    },
+    "glycemicIndex": "Low",
+    "tags": ["High Protein", "High Fiber", "Nutrient Packed"]
+  },
+  {
+    "name": "Tofu (Soy Paneer)",
+    "nameHindi": "टोफू",
+    "category": "Dairy Alternatives",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "g",
+    "householdServing": "1 block / 4 cubes (100g)",
+    "macros": {
+      "protein": 8.1,
+      "calories": 76,
+      "carbs": 1.9,
+      "fats": 4.8,
+      "fiber": 0.3
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 0.1,
+      "vitaminD": 0,
+      "vitaminE": 0.1,
+      "folate": 15
+    },
+    "minerals": {
+      "calcium": 350,
+      "iron": 5.4,
+      "zinc": 0.8,
+      "potassium": 121,
+      "magnesium": 30,
+      "sodium": 7
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Vegan Protein", "High Calcium", "Dairy Free"]
+  },
+  {
+    "name": "Almond Milk",
+    "nameHindi": "बादाम का दूध",
+    "category": "Dairy Alternatives",
+    "isVeg": true,
+    "standardServingSize": 200,
+    "servingUnit": "ml",
+    "householdServing": "1 glass (200ml)",
+    "macros": {
+      "protein": 1.0,
+      "calories": 30,
+      "carbs": 1.0,
+      "fats": 2.5,
+      "fiber": 0.5
+    },
+    "vitamins": {
+      "vitaminA": 100,
+      "vitaminB12": 0,
+      "vitaminC": 0,
+      "vitaminD": 1.0,
+      "vitaminE": 3.0,
+      "folate": 5
+    },
+    "minerals": {
+      "calcium": 240,
+      "iron": 0.2,
+      "zinc": 0.2,
+      "potassium": 40,
+      "magnesium": 10,
+      "sodium": 150
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Dairy Free", "Low Calorie", "Vegan Friendly"]
+  },
+  {
+    "name": "Coconut Milk",
+    "nameHindi": "नारियल का दूध",
+    "category": "Dairy Alternatives",
+    "isVeg": true,
+    "standardServingSize": 100,
+    "servingUnit": "ml",
+    "householdServing": "1/2 cup (100ml)",
+    "macros": {
+      "protein": 1.4,
+      "calories": 230,
+      "carbs": 5.5,
+      "fats": 23.8,
+      "fiber": 2.2
+    },
+    "vitamins": {
+      "vitaminA": 0,
+      "vitaminB12": 0,
+      "vitaminC": 2.8,
+      "vitaminD": 0,
+      "vitaminE": 0.1,
+      "folate": 16
+    },
+    "minerals": {
+      "calcium": 16,
+      "iron": 1.6,
+      "zinc": 0.7,
+      "potassium": 263,
+      "magnesium": 37,
+      "sodium": 15
+    },
+    "glycemicIndex": "Low",
+    "tags": ["Keto Friendly", "Dairy Free", "Rich Flavor"]
+  }
+]

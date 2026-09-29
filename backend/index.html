@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProteinDekho - Authentic Desi Nutrition Engine</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .glass-header { background: rgba(6, 78, 59, 0.95); backdrop-filter: blur(12px); }
+  </style>
+</head>
+<body class="bg-slate-50 min-h-screen text-slate-800 pb-16">
+
+  <!-- TOP HEADER -->
+  <header class="glass-header text-white sticky top-0 z-50 shadow-md">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="flex items-center gap-3 cursor-pointer" onclick="loadAllFoods()">
+        <div class="w-10 h-10 bg-emerald-500 rounded-xl flex items-center justify-center font-black text-xl shadow-inner">
+          🌱
+        </div>
+        <div>
+          <h1 class="text-xl font-extrabold tracking-tight">ProteinDekho</h1>
+          <p class="text-[10px] sm:text-xs text-emerald-200 font-medium">ICMR-NIN IFCT Verified Nutrition</p>
+        </div>
+      </div>
+      
+      <div class="flex items-center gap-2 sm:gap-3">
+        <!-- Browse All Button -->
+        <button onclick="loadAllFoods()" class="bg-emerald-600/80 hover:bg-emerald-500 text-white px-3 py-1.5 rounded-lg text-xs font-semibold tracking-wide border border-emerald-400/30 transition">
+          <i class="fa-solid fa-border-all mr-1"></i> <span id="btnBrowse">Browse All</span>
+        </button>
+
+        <!-- Connection Status Badge -->
+        <div id="statusBadge" class="hidden sm:flex items-center gap-2 bg-emerald-900/80 px-3 py-1.5 rounded-full text-xs font-medium border border-emerald-700">
+          <span id="statusDot" class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span id="statusText">Checking API...</span>
+        </div>
+
+        <!-- Language Toggle -->
+        <button id="langBtn" onclick="toggleLanguage()" class="bg-emerald-800 hover:bg-emerald-700 px-3 py-1.5 rounded-lg text-xs font-bold tracking-wider border border-emerald-600 text-emerald-100 transition">
+          <i class="fa-solid fa-language mr-1"></i> <span id="langLabel">हिंदी</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO & SEARCH SECTION -->
+  <section class="max-w-4xl mx-auto px-4 mt-8">
+    <div class="text-center mb-6">
+      <h2 id="heroTitle" class="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-2">
+        Apne Desi Khane Ka Sahi Nutrition Dekho
+      </h2>
+      <p id="heroSubtitle" class="text-slate-600 text-xs sm:text-base">
+        Search food or ask natural goals like <span class="text-emerald-700 font-bold">"10g protein ke liye vegan me kya hai"</span>
+      </p>
+    </div>
+
+    <!-- Main Search Input -->
+    <div class="relative max-w-2xl mx-auto">
+      <div class="relative flex items-center">
+        <input 
+          type="text" 
+          id="searchInput" 
+          placeholder="e.g. Sattu, Paneer, 20g protein veg, or Palak me iron..."
+          class="w-full pl-12 pr-28 py-4 bg-white border-2 border-emerald-500/30 rounded-2xl shadow-lg focus:outline-none focus:border-emerald-600 text-slate-800 placeholder-slate-400 text-sm sm:text-base font-medium transition"
+          onkeyup="if(event.key === 'Enter') performSearch()"
+        />
+        <i class="fa-solid fa-magnifying-glass absolute left-4 text-emerald-600 text-lg"></i>
+        <button 
+          onclick="performSearch()"
+          class="absolute right-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-5 py-2.5 rounded-xl shadow-md text-sm transition">
+          Search
+        </button>
+      </div>
+
+      <!-- Quick Search Chips -->
+      <div class="flex flex-wrap gap-2 justify-center mt-3 text-xs">
+        <span class="text-slate-400 font-medium py-1">Try:</span>
+        <button onclick="setQuery('Sattu')" class="bg-white hover:bg-emerald-50 text-slate-700 border border-slate-200 px-3 py-1 rounded-full shadow-sm transition">Sattu</button>
+        <button onclick="setQuery('Paneer')" class="bg-white hover:bg-emerald-50 text-slate-700 border border-slate-200 px-3 py-1 rounded-full shadow-sm transition">Paneer</button>
+        <button onclick="setQuery('10g protein vegan')" class="bg-white hover:bg-emerald-50 text-slate-700 border border-slate-200 px-3 py-1 rounded-full shadow-sm transition">10g protein vegan</button>
+        <button onclick="setQuery('Sprouted Chana')" class="bg-white hover:bg-emerald-50 text-slate-700 border border-slate-200 px-3 py-1 rounded-full shadow-sm transition">Sprouted Chana</button>
+      </div>
+    </div>
+
+    <!-- Category & Tag Filters -->
+    <div id="filterSection" class="max-w-3xl mx-auto mt-6 flex flex-wrap gap-2 justify-center">
+      <button onclick="filterCategory('')" class="bg-slate-200 hover:bg-slate-300 text-slate-800 text-xs font-bold px-3 py-1.5 rounded-xl transition">All Categories</button>
+      <button onclick="filterCategory('Dairy')" class="bg-amber-100 hover:bg-amber-200 text-amber-900 text-xs font-bold px-3 py-1.5 rounded-xl transition">🧀 Dairy</button>
+      <button onclick="filterCategory('Pulses')" class="bg-emerald-100 hover:bg-emerald-200 text-emerald-900 text-xs font-bold px-3 py-1.5 rounded-xl transition">🌱 Pulses & Legumes</button>
+      <button onclick="filterCategory('Eggs')" class="bg-yellow-100 hover:bg-yellow-200 text-yellow-900 text-xs font-bold px-3 py-1.5 rounded-xl transition">🥚 Eggs</button>
+      <button onclick="filterCategory('Meat')" class="bg-red-100 hover:bg-red-200 text-red-900 text-xs font-bold px-3 py-1.5 rounded-xl transition">🍗 Meat & Poultry</button>
+      <button onclick="filterTag('High Protein')" class="bg-purple-100 hover:bg-purple-200 text-purple-900 text-xs font-bold px-3 py-1.5 rounded-xl transition">⚡ High Protein</button>
+      <button onclick="filterTag('Low GI')" class="bg-teal-100 hover:bg-teal-200 text-teal-900 text-xs font-bold px-3 py-1.5 rounded-xl transition">🩺 Low GI</button>
+    </div>
+  </section>
+
+  <!-- RESULTS SECTION -->
+  <main class="max-w-5xl mx-auto px-4 mt-8">
+    
+    <!-- Loader -->
+    <div id="loader" class="hidden text-center py-12">
+      <div class="inline-block animate-spin rounded-full h-10 w-10 border-4 border-emerald-600 border-t-transparent"></div>
+      <p class="text-slate-500 text-xs mt-3 font-semibold">Fetching ICMR-NIN nutrition database...</p>
+    </div>
+
+    <!-- Results Output -->
+    <div id="resultsContainer"></div>
+
+  </main>
+
+  <script>
+    let currentLang = 'en';
+    const API_BASE = 'http://localhost:5000/api/foods';
+    let isBackendConnected = false;
+
+    // Offline Seed Fallback
+    const mockData = [
+      {
+        _id: "m1",
+        name: "Sattu (Roasted Chana Flour)",
+        nameHindi: "सत्तू",
+        category: "Pulses & Legumes",
+        isVeg: true,
+        servingUnit: "g",
+        householdServing: "1 glass (~30g-40g)",
+        glycemicIndex: 28,
+        tags: ["High Protein", "High Fiber", "Low GI", "Cooling Agent"],
+        macros: { protein: 20.6, calories: 380, carbs: 64.0, fats: 5.2, fiber: 13.5 },
+        vitamins: { vitaminA: 15.0, vitaminB12: 0.0, vitaminC: 0.0, vitaminD: 0.0, vitaminE: 0.8, folate: 125.0 },
+        minerals: { calcium: 58.0, iron: 6.8, zinc: 2.8, potassium: 825.0, magnesium: 140.0, sodium: 32.0 }
+      },
+      {
+        _id: "m2",
+        name: "Paneer (Cottage Cheese)",
+        nameHindi: "पनीर",
+        category: "Dairy",
+        isVeg: true,
+        servingUnit: "g",
+        householdServing: "1 cup cubes (~100g)",
+        glycemicIndex: 20,
+        tags: ["High Protein", "High Calcium", "Keto Friendly"],
+        macros: { protein: 18.3, calories: 265, carbs: 1.2, fats: 20.8, fiber: 0.0 },
+        vitamins: { vitaminA: 210.0, vitaminB12: 0.8, vitaminC: 0.0, vitaminD: 12.0, vitaminE: 0.4, folate: 18.0 },
+        minerals: { calcium: 480.0, iron: 0.2, zinc: 2.6, potassium: 135.0, magnesium: 18.0, sodium: 22.0 }
+      },
+      {
+        _id: "m3",
+        name: "Soy Chunks (Dried)",
+        nameHindi: "सोया चंक्स",
+        category: "Pulses & Legumes",
+        isVeg: true,
+        servingUnit: "g",
+        householdServing: "1 cup boiled (~30g dry)",
+        glycemicIndex: 15,
+        tags: ["Very High Protein", "High Fiber", "Low Fat"],
+        macros: { protein: 52.0, calories: 345, carbs: 33.0, fats: 0.5, fiber: 13.0 },
+        vitamins: { vitaminA: 0.0, vitaminB12: 0.0, vitaminC: 0.0, vitaminD: 0.0, vitaminE: 0.2, folate: 200.0 },
+        minerals: { calcium: 350.0, iron: 20.0, zinc: 4.5, potassium: 1450.0, magnesium: 240.0, sodium: 12.0 }
+      }
+    ];
+
+    window.addEventListener('DOMContentLoaded', async () => {
+      try {
+        const res = await fetch(`${API_BASE}/search?query=`);
+        if (res.ok) {
+          isBackendConnected = true;
+          document.getElementById('statusText').innerText = "Live API Connected";
+          document.getElementById('statusBadge').classList.remove('hidden');
+        }
+      } catch (e) {
+        document.getElementById('statusText').innerText = "Offline Preview Mode";
+        document.getElementById('statusBadge').classList.remove('hidden');
+        document.getElementById('statusDot').classList.replace('bg-emerald-400', 'bg-amber-400');
+        document.getElementById('statusBadge').classList.replace('bg-emerald-900/80', 'bg-amber-900/80');
+      }
+      
+      loadAllFoods();
+    });
+
+    function toggleLanguage() {
+      currentLang = currentLang === 'en' ? 'hi' : 'en';
+      document.getElementById('langLabel').innerText = currentLang === 'en' ? 'हिंदी' : 'English';
+      document.getElementById('btnBrowse').innerText = currentLang === 'en' ? 'Browse All' : 'सब देखें';
+      document.getElementById('heroTitle').innerText = currentLang === 'en' 
+        ? 'Apne Desi Khane Ka Sahi Nutrition Dekho' 
+        : 'अपने देसी खाने का सही न्यूट्रिशन देखें';
+      performSearch();
+    }
+
+    function setQuery(text) {
+      document.getElementById('searchInput').value = text;
+      performSearch();
+    }
+
+    async function loadAllFoods() {
+      document.getElementById('searchInput').value = '';
+      const loader = document.getElementById('loader');
+      const container = document.getElementById('resultsContainer');
+      loader.classList.remove('hidden');
+      container.innerHTML = '';
+
+      try {
+        let data;
+        if (isBackendConnected) {
+          const res = await fetch(`${API_BASE}/search?query=`);
+          data = await res.json();
+          renderResults({ type: 'FOOD_SEARCH', results: data.data });
+        } else {
+          renderResults({ type: 'FOOD_SEARCH', results: mockData });
+        }
+      } catch (err) {
+        container.innerHTML = `<div class="p-4 bg-red-100 text-red-700 rounded-xl text-center font-bold">Error loading foods: ${err.message}</div>`;
+      } finally {
+        loader.classList.add('hidden');
+      }
+    }
+
+    async function filterCategory(cat) {
+      if (!cat) return loadAllFoods();
+      document.getElementById('searchInput').value = cat;
+      performSearch();
+    }
+
+    async function filterTag(tag) {
+      document.getElementById('searchInput').value = tag;
+      performSearch();
+    }
+
+    async function performSearch() {
+      const q = document.getElementById('searchInput').value.trim();
+      const loader = document.getElementById('loader');
+      const container = document.getElementById('resultsContainer');
+      
+      loader.classList.remove('hidden');
+      container.innerHTML = '';
+
+      try {
+        let data;
+        if (isBackendConnected) {
+          const res = await fetch(`${API_BASE}/smart-search?q=${encodeURIComponent(q)}`);
+          data = await res.json();
+        } else {
+          data = simulateOfflineSmartSearch(q);
+        }
+
+        renderResults(data);
+      } catch (err) {
+        container.innerHTML = `<div class="p-4 bg-red-100 text-red-700 rounded-xl text-center font-bold">Error: ${err.message}</div>`;
+      } finally {
+        loader.classList.add('hidden');
+      }
+    }
+
+    function renderResults(data) {
+      const container = document.getElementById('resultsContainer');
+
+      // TARGET PROTEIN GOAL CASE
+      if (data.type === 'TARGET_PROTEIN_GOAL') {
+        let html = `
+          <div class="bg-emerald-950 text-white p-6 rounded-3xl shadow-xl mb-6 border border-emerald-800">
+            <h3 class="text-xl sm:text-2xl font-bold flex items-center gap-2">
+              <span>🎯 Target Protein Goal:</span> 
+              <span class="text-emerald-400 font-extrabold">${data.targetProtein}</span>
+            </h3>
+            <p class="text-emerald-200/80 text-xs sm:text-sm mt-1">Desi food items recommended to hit your goal:</p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        `;
+
+        data.results.forEach(item => {
+          html += `
+            <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
+              <div class="flex justify-between items-start mb-2">
+                <div>
+                  <h4 class="font-bold text-slate-900 text-lg">${currentLang === 'hi' ? (item.nameHindi || item.name) : item.name}</h4>
+                  <span class="text-[10px] bg-emerald-100 text-emerald-800 font-extrabold px-2 py-0.5 rounded-md uppercase">${item.category || 'Food'}</span>
+                </div>
+                <span class="text-xs font-black text-emerald-700 bg-emerald-50 border border-emerald-200 px-2.5 py-1 rounded-xl">
+                  ${item.proteinPer100g}g protein / 100g
+                </span>
+              </div>
+              <div class="mt-3 p-3 bg-slate-50 rounded-xl border border-slate-100">
+                <p class="text-xs font-bold text-slate-500 uppercase">Serving Required:</p>
+                <p class="text-sm font-bold text-emerald-800 mt-0.5">${item.suggestion}</p>
+              </div>
+            </div>
+          `;
+        });
+        html += `</div>`;
+        container.innerHTML = html;
+        return;
+      }
+
+      // REGULAR SEARCH OR BROWSE RESULTS
+      if (data.results && data.results.length > 0) {
+        data.results.forEach(food => {
+          container.innerHTML += renderFoodCard(food);
+        });
+      } else {
+        container.innerHTML = `
+          <div class="text-center py-12 bg-white rounded-3xl border border-slate-200 shadow-sm">
+            <i class="fa-solid fa-utensils text-4xl text-slate-300 mb-3"></i>
+            <p class="text-slate-700 font-bold">No food items found matching "${data.query || 'search'}"</p>
+            <button onclick="loadAllFoods()" class="mt-3 bg-emerald-600 text-white text-xs font-bold px-4 py-2 rounded-xl">View All Available Foods</button>
+          </div>
+        `;
+      }
+    }
+
+    function renderFoodCard(food) {
+      const title = currentLang === 'hi' ? (food.nameHindi || food.name) : food.name;
+      const m = food.macros || {};
+      const v = food.vitamins || {};
+      const min = food.minerals || {};
+      const cardId = food._id || Math.random().toString(36).substr(2, 9);
+
+      return `
+        <div class="bg-white rounded-3xl p-5 sm:p-6 border border-slate-200 shadow-sm mb-6 transition">
+          <!-- Card Header -->
+          <div class="flex flex-wrap justify-between items-start gap-2 border-b border-slate-100 pb-4 mb-4">
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full ${food.isVeg ? 'bg-emerald-500' : 'bg-red-500'}" title="${food.isVeg ? 'Vegetarian' : 'Non-Vegetarian'}"></span>
+                <h3 class="text-lg sm:text-2xl font-bold text-slate-900">${title}</h3>
+              </div>
+              <p class="text-xs text-slate-500 mt-1">Household Portion: <span class="font-bold text-slate-700">${food.householdServing || '100g'}</span></p>
+            </div>
+            <div class="flex gap-1 flex-wrap">
+              ${(food.tags || []).map(t => `<span class="bg-slate-100 text-slate-700 text-[11px] font-bold px-2.5 py-1 rounded-lg">${t}</span>`).join('')}
+            </div>
+          </div>
+
+          <!-- Quantity Interactive Slider -->
+          <div class="bg-emerald-50/70 p-4 rounded-2xl mb-5 border border-emerald-100">
+            <div class="flex justify-between items-center mb-2">
+              <label class="text-xs font-extrabold text-emerald-950 uppercase tracking-wider">Adjust Portion:</label>
+              <span class="text-sm font-black text-emerald-800"><span id="qtyVal_${cardId}">100</span> ${food.servingUnit || 'g'}</span>
+            </div>
+            <input 
+              type="range" 
+              min="10" 
+              max="500" 
+              step="5" 
+              value="100" 
+              class="w-full accent-emerald-600 cursor-pointer"
+              oninput="recalculateCard('${cardId}', this.value, ${JSON.stringify(food).replace(/"/g, '&quot;')})"
+            />
+          </div>
+
+          <!-- Macros Grid -->
+          <div class="grid grid-cols-2 sm:grid-cols-5 gap-2.5 mb-4">
+            <div class="bg-emerald-50 p-3 rounded-xl text-center border border-emerald-100">
+              <p class="text-[10px] text-emerald-700 font-extrabold uppercase">Protein</p>
+              <p class="text-lg sm:text-xl font-black text-emerald-900 mt-0.5"><span id="p_${cardId}">${m.protein || 0}</span>g</p>
+            </div>
+            <div class="bg-amber-50 p-3 rounded-xl text-center border border-amber-100">
+              <p class="text-[10px] text-amber-700 font-extrabold uppercase">Calories</p>
+              <p class="text-lg sm:text-xl font-black text-amber-900 mt-0.5"><span id="c_${cardId}">${m.calories || 0}</span></p>
+            </div>
+            <div class="bg-blue-50 p-3 rounded-xl text-center border border-blue-100">
+              <p class="text-[10px] text-blue-700 font-extrabold uppercase">Carbs</p>
+              <p class="text-lg sm:text-xl font-black text-blue-900 mt-0.5"><span id="cb_${cardId}">${m.carbs || 0}</span>g</p>
+            </div>
+            <div class="bg-purple-50 p-3 rounded-xl text-center border border-purple-100">
+              <p class="text-[10px] text-purple-700 font-extrabold uppercase">Fats</p>
+              <p class="text-lg sm:text-xl font-black text-purple-900 mt-0.5"><span id="f_${cardId}">${m.fats || 0}</span>g</p>
+            </div>
+            <div class="bg-teal-50 p-3 rounded-xl text-center border border-teal-100 col-span-2 sm:col-span-1">
+              <p class="text-[10px] text-teal-700 font-extrabold uppercase">Fiber</p>
+              <p class="text-lg sm:text-xl font-black text-teal-900 mt-0.5"><span id="fb_${cardId}">${m.fiber || 0}</span>g</p>
+            </div>
+          </div>
+
+          <!-- Micronutrients Collapsible Toggle -->
+          <details class="group mt-2">
+            <summary class="cursor-pointer text-xs font-bold text-slate-500 hover:text-emerald-700 flex justify-between items-center bg-slate-50 p-3 rounded-xl">
+              <span><i class="fa-solid fa-flask text-emerald-600 mr-1.5"></i> Full Micronutrients & Minerals Breakdown</span>
+              <i class="fa-solid fa-chevron-down group-open:rotate-180 transition"></i>
+            </summary>
+            <div class="mt-3 grid grid-cols-2 sm:grid-cols-4 gap-2 text-xs bg-slate-50/50 p-3 rounded-xl border border-slate-100">
+              <div><span class="text-slate-400">Calcium:</span> <strong id="cal_${cardId}">${min.calcium || 0}</strong> mg</div>
+              <div><span class="text-slate-400">Iron:</span> <strong id="fe_${cardId}">${min.iron || 0}</strong> mg</div>
+              <div><span class="text-slate-400">Zinc:</span> <strong id="zn_${cardId}">${min.zinc || 0}</strong> mg</div>
+              <div><span class="text-slate-400">Potassium:</span> <strong id="k_${cardId}">${min.potassium || 0}</strong> mg</div>
+              <div><span class="text-slate-400">Vit A:</span> <strong id="va_${cardId}">${v.vitaminA || 0}</strong> mcg</div>
+              <div><span class="text-slate-400">Vit B12:</span> <strong id="vb12_${cardId}">${v.vitaminB12 || 0}</strong> mcg</div>
+              <div><span class="text-slate-400">Vit C:</span> <strong id="vc_${cardId}">${v.vitaminC || 0}</strong> mg</div>
+              <div><span class="text-slate-400">Folate:</span> <strong id="fol_${cardId}">${v.folate || 0}</strong> mcg</div>
+            </div>
+          </details>
+        </div>
+      `;
+    }
+
+    function recalculateCard(id, qty, food) {
+      const factor = parseFloat(qty) / 100;
+      document.getElementById(`qtyVal_${id}`).innerText = qty;
+      
+      // Recalculate Macros
+      document.getElementById(`p_${id}`).innerText = (food.macros.protein * factor).toFixed(1);
+      document.getElementById(`c_${id}`).innerText = Math.round(food.macros.calories * factor);
+      document.getElementById(`cb_${id}`).innerText = (food.macros.carbs * factor).toFixed(1);
+      document.getElementById(`f_${id}`).innerText = (food.macros.fats * factor).toFixed(1);
+      document.getElementById(`fb_${id}`).innerText = ((food.macros.fiber || 0) * factor).toFixed(1);
+
+      // Recalculate Micros
+      if (food.minerals) {
+        document.getElementById(`cal_${id}`).innerText = ((food.minerals.calcium || 0) * factor).toFixed(1);
+        document.getElementById(`fe_${id}`).innerText = ((food.minerals.iron || 0) * factor).toFixed(1);
+        document.getElementById(`zn_${id}`).innerText = ((food.minerals.zinc || 0) * factor).toFixed(1);
+        document.getElementById(`k_${id}`).innerText = ((food.minerals.potassium || 0) * factor).toFixed(1);
+      }
+      if (food.vitamins) {
+        document.getElementById(`va_${id}`).innerText = ((food.vitamins.vitaminA || 0) * factor).toFixed(1);
+        document.getElementById(`vb12_${id}`).innerText = ((food.vitamins.vitaminB12 || 0) * factor).toFixed(1);
+        document.getElementById(`vc_${id}`).innerText = ((food.vitamins.vitaminC || 0) * factor).toFixed(1);
+        document.getElementById(`fol_${id}`).innerText = ((food.vitamins.folate || 0) * factor).toFixed(1);
+      }
+    }
+
+    function simulateOfflineSmartSearch(q) {
+      const queryText = q.toLowerCase();
+      const proteinMatch = queryText.match(/(\d+)\s*(g|gram|grams)?\s*(protein)?/i);
+      const targetProtein = proteinMatch ? parseFloat(proteinMatch[1]) : null;
+
+      if (targetProtein) {
+        return {
+          type: 'TARGET_PROTEIN_GOAL',
+          targetProtein: `${targetProtein}g`,
+          results: mockData.map(item => ({
+            name: item.name,
+            nameHindi: item.nameHindi,
+            category: item.category,
+            proteinPer100g: item.macros.protein,
+            suggestion: `${targetProtein}g protein ke liye ~${Math.round((targetProtein / item.macros.protein) * 100)}${item.servingUnit} ${item.name} khayein.`
+          }))
+        };
+      }
+
+      const filtered = mockData.filter(item => 
+        item.name.toLowerCase().includes(queryText) || 
+        item.nameHindi.includes(queryText) ||
+        item.category.toLowerCase().includes(queryText) ||
+        (item.tags || []).some(t => t.toLowerCase().includes(queryText))
+      );
+
+      return {
+        type: 'FOOD_SEARCH',
+        query: q,
+        results: filtered.length > 0 ? filtered : mockData
+      };
+    }
+  </script>
+</body>
+</html>
