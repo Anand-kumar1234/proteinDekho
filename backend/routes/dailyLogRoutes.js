@@ -6,7 +6,7 @@ import {
   addFoodToDailyLog,
   getTodayLog,
   removeFoodFromDailyLog,
-} from "../controllers/dailyLogcontroller.js";
+} from "../controllers/dailyLogController.js";
 
 const router = express.Router();
 
