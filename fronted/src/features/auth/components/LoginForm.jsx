@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { loginUser } from "../authService";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function LoginForm() {
   const navigate = useNavigate();
@@ -26,38 +28,41 @@ function LoginForm() {
 
     try {
       setLoading(true);
-;
+      
       const result = await loginUser(formData);
 
-console.log("LOGIN RESULT:", result);
+      console.log("LOGIN RESULT:", result);
 
-if (result.success) {
+      if (result.success) {
+        // 🆕 JWT save
+        localStorage.setItem(
+          "accessToken",
+          result.accessToken
+        );
 
-  // 🆕 JWT save
-  localStorage.setItem(
-    "accessToken",
-    result.accessToken
-  );
+        // 🆕 Check
+        console.log(
+          "TOKEN SAVED:",
+          localStorage.getItem("accessToken")
+        );
 
-  // 🆕 Check
-  console.log(
-    "TOKEN SAVED:",
-    localStorage.getItem("accessToken")
-  );
+        // 🆕 Header ko immediately update karne ke liye
+        window.dispatchEvent(
+          new Event("authChange")
+        );
 
-  // 🆕 Header ko immediately update karne ke liye
-  window.dispatchEvent(
-    new Event("authChange")
-  );
+        toast.success("Login successful!", {
+          position: "top-right",
+          autoClose: 3000,
+        });
 
-  alert("Login successful!");
-
-  navigate("/dashboard");
-}
+        navigate("/dashboard");
+      }
 
     } catch (error) {
       console.error("Login Failed:", error.message);
 
+      // Agar error ke liye bhi toast use karna chahe toh toast.error(error.message) bhi kar sakte hain
       alert(error.message);
 
     } finally {
